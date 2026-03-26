@@ -1746,15 +1746,9 @@ class App extends React.Component<AppProps, AppState> {
               key={el.id}
               className="excalidraw__luzmochart-container"
               style={{
-                // Only use translate for positioning, no scale transform
-                // This prevents tooltip positioning issues with Luzmo's portal-based tooltips
-                // Include rotation here so it applies to the scaled container
-                transform: isVisible
-                  ? `translate(${x - this.state.offsetLeft}px, ${
-                      y - this.state.offsetTop
-                    }px) rotate(${el.angle}rad)`
-                  : "none",
-                transformOrigin: "center center",
+                // Keep host at viewport origin; position chart via inner wrapper.
+                left: 0,
+                top: 0,
                 display: isVisible ? "block" : "none",
                 opacity: getRenderOpacity(
                   el,
@@ -1773,11 +1767,17 @@ class App extends React.Component<AppProps, AppState> {
                   // Use scaled dimensions directly
                   width: isVisible ? `${scaledWidth}px` : 0,
                   height: isVisible ? `${scaledHeight}px` : 0,
+                  left: `${x - this.state.offsetLeft}px`,
+                  top: `${y - this.state.offsetTop}px`,
+                  // Avoid creating a transform containing block at angle 0.
+                  transform:
+                    isVisible && el.angle !== 0 ? `rotate(${el.angle}rad)` : "none",
+                  transformOrigin: "center center",
                   // Outer container doesn't capture pointer events
                   // so clicking on the border area will select the element
                   pointerEvents: POINTER_EVENTS.disabled,
                   overflow: "hidden",
-                  position: "relative",
+                  position: "absolute",
                 }}
               >
                 {/* Chart content with padding to account for border */}
