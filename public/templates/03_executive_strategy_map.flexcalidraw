@@ -1,7 +1,7 @@
 {
   "type": "flexcalidraw",
   "version": 2,
-  "source": "https://flexcalidraw.luzmo.com",
+  "source": "https://examples.luzmo.com/flexcalidraw",
   "elements": [
     {
       "id": "frame_main",
@@ -9,7 +9,7 @@
       "x": 0,
       "y": 0,
       "width": 1800,
-      "height": 1150,
+      "height": 1196.8255405228228,
       "angle": 0,
       "strokeColor": "#868e96",
       "backgroundColor": "transparent",
@@ -23,11 +23,11 @@
       "index": "a0",
       "roundness": null,
       "seed": 103001,
-      "version": 1,
-      "versionNonce": 103001,
+      "version": 19,
+      "versionNonce": 1223661505,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426808895,
       "link": null,
       "locked": false,
       "name": "Executive Strategy Map"
@@ -35,8 +35,8 @@
     {
       "id": "kpi_revenue",
       "type": "rectangle",
-      "x": 50,
-      "y": 40,
+      "x": 63.651533067163655,
+      "y": 211.16922230366484,
       "width": 400,
       "height": 120,
       "angle": 0,
@@ -50,21 +50,23 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "a1",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 103002,
-      "version": 1,
-      "versionNonce": 103002,
+      "version": 85,
+      "versionNonce": 1209245473,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false
     },
     {
       "id": "kpi_revenue_text",
       "type": "text",
-      "x": 80,
-      "y": 60,
+      "x": 93.65153306716365,
+      "y": 231.16922230366484,
       "width": 340,
       "height": 80,
       "angle": 0,
@@ -80,11 +82,11 @@
       "index": "a2",
       "roundness": null,
       "seed": 103003,
-      "version": 1,
-      "versionNonce": 103003,
+      "version": 85,
+      "versionNonce": 735190895,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false,
       "text": "REVENUE\n+8% YoY",
@@ -100,8 +102,8 @@
     {
       "id": "kpi_churn",
       "type": "rectangle",
-      "x": 470,
-      "y": 40,
+      "x": 483.65153306716365,
+      "y": 211.16922230366484,
       "width": 400,
       "height": 120,
       "angle": 0,
@@ -115,21 +117,23 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "a3",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 103004,
-      "version": 1,
-      "versionNonce": 103004,
+      "version": 85,
+      "versionNonce": 1232409345,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false
     },
     {
       "id": "kpi_churn_text",
       "type": "text",
-      "x": 500,
-      "y": 60,
+      "x": 513.6515330671637,
+      "y": 231.16922230366484,
       "width": 340,
       "height": 80,
       "angle": 0,
@@ -145,11 +149,11 @@
       "index": "a4",
       "roundness": null,
       "seed": 103005,
-      "version": 1,
-      "versionNonce": 103005,
+      "version": 85,
+      "versionNonce": 39475599,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false,
       "text": "CHURN\nRising in SMB",
@@ -165,8 +169,8 @@
     {
       "id": "kpi_pipeline",
       "type": "rectangle",
-      "x": 890,
-      "y": 40,
+      "x": 903.6515330671637,
+      "y": 211.16922230366484,
       "width": 400,
       "height": 120,
       "angle": 0,
@@ -180,21 +184,23 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "a5",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 103006,
-      "version": 1,
-      "versionNonce": 103006,
+      "version": 85,
+      "versionNonce": 708643553,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false
     },
     {
       "id": "kpi_pipeline_text",
       "type": "text",
-      "x": 920,
-      "y": 60,
+      "x": 933.6515330671637,
+      "y": 231.16922230366484,
       "width": 340,
       "height": 80,
       "angle": 0,
@@ -210,11 +216,11 @@
       "index": "a6",
       "roundness": null,
       "seed": 103007,
-      "version": 1,
-      "versionNonce": 103007,
+      "version": 85,
+      "versionNonce": 1813401519,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false,
       "text": "PIPELINE\nHealthy",
@@ -230,8 +236,8 @@
     {
       "id": "kpi_support",
       "type": "rectangle",
-      "x": 1310,
-      "y": 40,
+      "x": 1323.6515330671637,
+      "y": 211.16922230366484,
       "width": 400,
       "height": 120,
       "angle": 0,
@@ -245,21 +251,23 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "a7",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 103008,
-      "version": 1,
-      "versionNonce": 103008,
+      "version": 85,
+      "versionNonce": 1123747521,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false
     },
     {
       "id": "kpi_support_text",
       "type": "text",
-      "x": 1340,
-      "y": 60,
+      "x": 1353.6515330671637,
+      "y": 231.16922230366484,
       "width": 340,
       "height": 80,
       "angle": 0,
@@ -275,11 +283,11 @@
       "index": "a8",
       "roundness": null,
       "seed": 103009,
-      "version": 1,
-      "versionNonce": 103009,
+      "version": 85,
+      "versionNonce": 1127121359,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false,
       "text": "SUPPORT VOL\nStable",
@@ -293,10 +301,42 @@
       "lineHeight": 1.25
     },
     {
+      "id": "jnbUQWgj3Dhjrky5bH0ug",
+      "type": "frame",
+      "x": 47.651533067163655,
+      "y": 350.1692223036648,
+      "width": 572,
+      "height": 800,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a8V",
+      "roundness": null,
+      "seed": 206055103,
+      "version": 135,
+      "versionNonce": 2106873729,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774426515958,
+      "link": null,
+      "locked": false,
+      "customData": {
+        "aiSummaryChartId": "chart_revenue"
+      },
+      "name": "Revenue Trend — Chart + AI Summary"
+    },
+    {
       "id": "chart_revenue",
       "type": "luzmochart",
-      "x": 50,
-      "y": 195,
+      "x": 63.651533067163655,
+      "y": 366.1692223036648,
       "width": 540,
       "height": 340,
       "angle": 0,
@@ -308,20 +348,58 @@
       "roughness": 0,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
+      "frameId": "jnbUQWgj3Dhjrky5bH0ug",
       "index": "a9",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 103010,
-      "version": 1,
-      "versionNonce": 103010,
+      "version": 85,
+      "versionNonce": 2095566833,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426421941,
       "link": null,
       "locked": false,
       "chartType": "line-chart",
-      "slots": [],
-      "options": { "title": { "en": "Revenue Trend" }, "display": { "title": true } },
+      "slots": [
+        {
+          "name": "x-axis",
+          "content": [
+            {
+              "columnId": "b7f7c3e4-58d0-4fb5-8f9c-4bfa55ac8a57",
+              "datasetId": "2c1795f8-b0d7-4a01-b881-de4568f3d94a",
+              "type": "datetime",
+              "level": 2,
+              "label": {
+                "en": "Time"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "1226dfe1-dcf1-49cc-8e65-0d2978fa6c57",
+              "datasetId": "2c1795f8-b0d7-4a01-b881-de4568f3d94a",
+              "type": "numeric",
+              "aggregationFunc": "sum",
+              "label": {
+                "en": "MRR (USD)"
+              }
+            }
+          ]
+        }
+      ],
+      "options": {
+        "title": {
+          "en": "Revenue Trend"
+        },
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "exec-revenue-ctx",
       "themeId": "default",
@@ -329,13 +407,57 @@
       "chartData": null,
       "chartOptions": null,
       "aiSummaryEnabled": true,
-      "customData": { "luzmoPlaceholder": true, "suggestedDataset": "revenue_quarterly", "suggestedMeasure": "revenue", "suggestedDimension": "quarter" }
+      "customData": {
+        "luzmoPlaceholder": true,
+        "suggestedDataset": "CRM (Demo)",
+        "suggestedMeasure": "mrr_usd",
+        "suggestedDimension": "event_timestamp",
+        "aiSummaryElementId": "Dd4OT_TafgbDn_wq6kLsU",
+        "aiSummaryFrameId": "jnbUQWgj3Dhjrky5bH0ug"
+      }
+    },
+    {
+      "id": "Dd4OT_TafgbDn_wq6kLsU",
+      "type": "text",
+      "x": 63.651533067163655,
+      "y": 754.1692223036649,
+      "width": 540,
+      "height": 380,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": "jnbUQWgj3Dhjrky5bH0ug",
+      "index": "a9V",
+      "roundness": null,
+      "seed": 1295897247,
+      "version": 3289,
+      "versionNonce": 2097449441,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774426517359,
+      "link": null,
+      "locked": false,
+      "text": "The data reveals a dynamic pattern in Monthly Recurring Revenue\n(MRR) over the observed period. In the most recent month,\nFebruary 2026, MRR fluctuated significantly, starting at\n**$13,160** on February 1 and peaking at **$84,357** on February\n4. This peak was followed by a sharp decline to **$21,336** on\nFebruary 6, illustrating volatility. The month ended with MRR at\n**$51,238** on February 16, showing a recovery from mid-month\nlows.\n\nComparing year-over-year data, February 2025 also exhibited\nfluctuations, with MRR ranging from **$9,824** to **$72,078**.\nNotably, February 2026's peak was higher than any day in February\n2025, indicating potential growth in revenue capacity.\n\nThroughout the data, there are frequent spikes and drops,\nsuggesting that MRR is subject to significant variability, possibly\ndue to seasonal factors or business cycles. The data highlights the\nimportance of monitoring these fluctuations to understand\nunderlying business dynamics and potential growth opportunities.",
+      "fontSize": 16,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "The data reveals a dynamic pattern in Monthly Recurring Revenue (MRR) over the observed period. In the most recent month, February 2026, MRR fluctuated significantly, starting at **$13,160** on February 1 and peaking at **$84,357** on February 4. This peak was followed by a sharp decline to **$21,336** on February 6, illustrating volatility. The month ended with MRR at **$51,238** on February 16, showing a recovery from mid-month lows.\n\nComparing year-over-year data, February 2025 also exhibited fluctuations, with MRR ranging from **$9,824** to **$72,078**. Notably, February 2026's peak was higher than any day in February 2025, indicating potential growth in revenue capacity.\n\nThroughout the data, there are frequent spikes and drops, suggesting that MRR is subject to significant variability, possibly due to seasonal factors or business cycles. The data highlights the importance of monitoring these fluctuations to understand underlying business dynamics and potential growth opportunities.",
+      "autoResize": false,
+      "lineHeight": 1.25
     },
     {
       "id": "chart_revenue_label",
       "type": "text",
-      "x": 55,
-      "y": 168,
+      "x": 68.65153306716365,
+      "y": 339.1692223036648,
       "width": 350,
       "height": 22,
       "angle": 0,
@@ -351,93 +473,60 @@
       "index": "aA",
       "roundness": null,
       "seed": 103011,
-      "version": 1,
-      "versionNonce": 103011,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "version": 86,
+      "versionNonce": 1464556001,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774426819489,
       "link": null,
       "locked": false,
-      "text": "LuzmoFlex: Line Chart — Dataset: revenue_quarterly",
+      "text": "LuzmoFlex: Line Chart — Dataset: CRM (Demo)",
       "fontSize": 11,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "LuzmoFlex: Line Chart — Dataset: revenue_quarterly",
+      "originalText": "LuzmoFlex: Line Chart — Dataset: CRM (Demo)",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
-      "id": "ai_revenue_box",
-      "type": "rectangle",
-      "x": 50,
-      "y": 550,
-      "width": 540,
-      "height": 75,
+      "id": "sEvWmUPABooL3_6_Tx7X5",
+      "type": "frame",
+      "x": 617.6515330671637,
+      "y": 350.1692223036648,
+      "width": 572,
+      "height": 740,
       "angle": 0,
-      "strokeColor": "#2f9e44",
-      "backgroundColor": "#ebfbee",
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 0,
+      "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aB",
-      "roundness": { "type": 3 },
-      "seed": 103012,
-      "version": 1,
-      "versionNonce": 103012,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
-      "link": null,
-      "locked": false
-    },
-    {
-      "id": "ai_revenue_text",
-      "type": "text",
-      "x": 70,
-      "y": 560,
-      "width": 500,
-      "height": 55,
-      "angle": 0,
-      "strokeColor": "#2f9e44",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 0,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aC",
+      "frameId": null,
+      "index": "aCV",
       "roundness": null,
-      "seed": 103013,
-      "version": 1,
-      "versionNonce": 103013,
+      "seed": 378302961,
+      "version": 113,
+      "versionNonce": 768219169,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426524860,
       "link": null,
       "locked": false,
-      "text": "AI Summary: Enabled\n\nAI Executive Brief: Revenue up 8%, churn rising in SMB segment.",
-      "fontSize": 13,
-      "fontFamily": 1,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "containerId": null,
-      "originalText": "AI Summary: Enabled\n\nAI Executive Brief: Revenue up 8%, churn rising in SMB segment.",
-      "autoResize": true,
-      "lineHeight": 1.25
+      "customData": {
+        "aiSummaryChartId": "chart_churn"
+      },
+      "name": "Churn Trend — Chart + AI Summary"
     },
     {
       "id": "chart_churn",
       "type": "luzmochart",
-      "x": 620,
-      "y": 195,
+      "x": 633.6515330671637,
+      "y": 366.1692223036648,
       "width": 540,
       "height": 340,
       "angle": 0,
@@ -449,20 +538,58 @@
       "roughness": 0,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
+      "frameId": "sEvWmUPABooL3_6_Tx7X5",
       "index": "aD",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 103014,
-      "version": 1,
-      "versionNonce": 103014,
+      "version": 85,
+      "versionNonce": 1868287857,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426421941,
       "link": null,
       "locked": false,
       "chartType": "line-chart",
-      "slots": [],
-      "options": { "title": { "en": "Churn Trend" }, "display": { "title": true } },
+      "slots": [
+        {
+          "name": "x-axis",
+          "content": [
+            {
+              "columnId": "b7f7c3e4-58d0-4fb5-8f9c-4bfa55ac8a57",
+              "datasetId": "2c1795f8-b0d7-4a01-b881-de4568f3d94a",
+              "type": "datetime",
+              "level": 3,
+              "label": {
+                "en": "Time"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "211fd485-1b87-4f43-aeb9-ee075be5466d",
+              "datasetId": "2c1795f8-b0d7-4a01-b881-de4568f3d94a",
+              "type": "numeric",
+              "aggregationFunc": "average",
+              "label": {
+                "en": "Churn Rate Proxy"
+              }
+            }
+          ]
+        }
+      ],
+      "options": {
+        "title": {
+          "en": "Churn Trend"
+        },
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "exec-churn-ctx",
       "themeId": "default",
@@ -470,13 +597,57 @@
       "chartData": null,
       "chartOptions": null,
       "aiSummaryEnabled": true,
-      "customData": { "luzmoPlaceholder": true, "suggestedDataset": "churn_segments", "suggestedMeasure": "churn_rate", "suggestedDimension": "quarter" }
+      "customData": {
+        "luzmoPlaceholder": true,
+        "suggestedDataset": "CRM (Demo)",
+        "suggestedMeasure": "is_churned",
+        "suggestedDimension": "event_timestamp",
+        "aiSummaryElementId": "HEPpk5C3E2MTdEVUdrBwh",
+        "aiSummaryFrameId": "sEvWmUPABooL3_6_Tx7X5"
+      }
+    },
+    {
+      "id": "HEPpk5C3E2MTdEVUdrBwh",
+      "type": "text",
+      "x": 633.6515330671637,
+      "y": 754.1692223036649,
+      "width": 540,
+      "height": 320,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": "sEvWmUPABooL3_6_Tx7X5",
+      "index": "aDV",
+      "roundness": null,
+      "seed": 2028477457,
+      "version": 2198,
+      "versionNonce": 683560577,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774426525986,
+      "link": null,
+      "locked": false,
+      "text": "The data reveals a fluctuating pattern in the churn rate proxy over\ntime, with periods of stability interspersed with spikes. Notably, the\nchurn rate proxy reached its highest point at **0.333** on October\n2, 2023, indicating a significant churn event. Throughout the\nobserved period, there are several instances where the churn rate\nproxy spikes, such as **0.25** on March 25, 2025, and **0.2** on\nOctober 17, 2023. These peaks are often followed by periods of\nzero churn, suggesting a cyclical pattern. The data also shows that\nthe churn rate proxy frequently returns to zero, indicating periods\nof no churn activity. This pattern suggests that while there are\noccasional spikes in churn, they are not sustained over long periods.\nThe churn rate proxy's variability highlights the importance of\nmonitoring these spikes to understand underlying causes and\naddress potential issues. Overall, the data suggests a dynamic churn\nenvironment with intermittent spikes that could be linked to specific\nevents or changes in the business environment.",
+      "fontSize": 16,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "The data reveals a fluctuating pattern in the churn rate proxy over time, with periods of stability interspersed with spikes. Notably, the churn rate proxy reached its highest point at **0.333** on October 2, 2023, indicating a significant churn event. Throughout the observed period, there are several instances where the churn rate proxy spikes, such as **0.25** on March 25, 2025, and **0.2** on October 17, 2023. These peaks are often followed by periods of zero churn, suggesting a cyclical pattern. The data also shows that the churn rate proxy frequently returns to zero, indicating periods of no churn activity. This pattern suggests that while there are occasional spikes in churn, they are not sustained over long periods. The churn rate proxy's variability highlights the importance of monitoring these spikes to understand underlying causes and address potential issues. Overall, the data suggests a dynamic churn environment with intermittent spikes that could be linked to specific events or changes in the business environment.",
+      "autoResize": false,
+      "lineHeight": 1.25
     },
     {
       "id": "chart_churn_label",
       "type": "text",
-      "x": 625,
-      "y": 168,
+      "x": 638.6515330671637,
+      "y": 339.1692223036648,
       "width": 350,
       "height": 22,
       "angle": 0,
@@ -492,93 +663,28 @@
       "index": "aE",
       "roundness": null,
       "seed": 103015,
-      "version": 1,
-      "versionNonce": 103015,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "version": 86,
+      "versionNonce": 1211662447,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774426818232,
       "link": null,
       "locked": false,
-      "text": "LuzmoFlex: Line Chart — Dataset: churn_segments",
+      "text": "LuzmoFlex: Line Chart — Dataset: CRM (Demo)",
       "fontSize": 11,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "LuzmoFlex: Line Chart — Dataset: churn_segments",
-      "autoResize": true,
-      "lineHeight": 1.25
-    },
-    {
-      "id": "ai_churn_box",
-      "type": "rectangle",
-      "x": 620,
-      "y": 550,
-      "width": 540,
-      "height": 75,
-      "angle": 0,
-      "strokeColor": "#e03131",
-      "backgroundColor": "#ffe3e3",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "roughness": 0,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aF",
-      "roundness": { "type": 3 },
-      "seed": 103016,
-      "version": 1,
-      "versionNonce": 103016,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
-      "link": null,
-      "locked": false
-    },
-    {
-      "id": "ai_churn_text",
-      "type": "text",
-      "x": 640,
-      "y": 560,
-      "width": 500,
-      "height": 55,
-      "angle": 0,
-      "strokeColor": "#e03131",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 0,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aG",
-      "roundness": null,
-      "seed": 103017,
-      "version": 1,
-      "versionNonce": 103017,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
-      "link": null,
-      "locked": false,
-      "text": "AI Summary: Enabled\n\nAI Insight: EMEA SMB churn +2.1pp QoQ — investigate onboarding.",
-      "fontSize": 13,
-      "fontFamily": 1,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "containerId": null,
-      "originalText": "AI Summary: Enabled\n\nAI Insight: EMEA SMB churn +2.1pp QoQ — investigate onboarding.",
+      "originalText": "LuzmoFlex: Line Chart — Dataset: CRM (Demo)",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
       "id": "strategic_notes",
       "type": "rectangle",
-      "x": 1195,
-      "y": 195,
+      "x": 1208.6515330671637,
+      "y": 366.1692223036648,
       "width": 515,
       "height": 430,
       "angle": 0,
@@ -592,24 +698,26 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aH",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 103018,
-      "version": 1,
-      "versionNonce": 103018,
+      "version": 85,
+      "versionNonce": 115804801,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false
     },
     {
       "id": "ceo_note",
       "type": "text",
-      "x": 1220,
-      "y": 220,
+      "x": 1249.7414034211179,
+      "y": 381.97501067283383,
       "width": 450,
       "height": 80,
-      "angle": -1,
+      "angle": 0.004346237465060021,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
@@ -622,11 +730,11 @@
       "index": "aI",
       "roundness": null,
       "seed": 103019,
-      "version": 1,
-      "versionNonce": 103019,
+      "version": 245,
+      "versionNonce": 113613327,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false,
       "text": "Why churn in EMEA?",
@@ -642,10 +750,10 @@
     {
       "id": "arrow_churn_to_note",
       "type": "arrow",
-      "x": 1130,
-      "y": 350,
+      "x": 1143.6515330671637,
+      "y": 521.1692223036648,
       "width": 95,
-      "height": -120,
+      "height": 120,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
@@ -657,16 +765,31 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aJ",
-      "roundness": { "type": 2 },
+      "roundness": {
+        "type": 2
+      },
       "seed": 103020,
-      "version": 1,
-      "versionNonce": 103020,
+      "version": 85,
+      "versionNonce": 1703154273,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [50, -60], [95, -120]],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          50,
+          -60
+        ],
+        [
+          95,
+          -120
+        ]
+      ],
       "lastCommittedPoint": null,
       "startBinding": null,
       "endBinding": null,
@@ -677,8 +800,8 @@
     {
       "id": "filter_panel",
       "type": "rectangle",
-      "x": 50,
-      "y": 660,
+      "x": 59.45106135418985,
+      "y": 33.079596838725024,
       "width": 1660,
       "height": 140,
       "angle": 0,
@@ -692,23 +815,25 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aK",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 103021,
-      "version": 1,
-      "versionNonce": 103021,
+      "version": 136,
+      "versionNonce": 395723617,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false
     },
     {
       "id": "filter_date",
       "type": "luzmochart",
-      "x": 80,
-      "y": 680,
+      "x": 88.40094342594648,
+      "y": 53.079596838725024,
       "width": 360,
-      "height": 50,
+      "height": 106.70636812514046,
       "angle": 0,
       "strokeColor": "#868e96",
       "backgroundColor": "#f8f9fa",
@@ -720,33 +845,53 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL1",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1030221,
-      "version": 1,
-      "versionNonce": 1030221,
+      "version": 187,
+      "versionNonce": 107667247,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false,
       "chartType": "date-filter",
       "slots": [
-        { "name": "time", "content": [{ "columnId": "b7f7c3e4-58d0-4fb5-8f9c-4bfa55ac8a57", "datasetId": "2c1795f8-b0d7-4a01-b881-de4568f3d94a", "type": "datetime", "level": 5, "label": { "en": "Time" } }] }
+        {
+          "name": "time",
+          "content": [
+            {
+              "columnId": "b7f7c3e4-58d0-4fb5-8f9c-4bfa55ac8a57",
+              "datasetId": "2c1795f8-b0d7-4a01-b881-de4568f3d94a",
+              "type": "datetime",
+              "level": 5,
+              "label": {
+                "en": "Time"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "exec-filter-date-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     },
     {
       "id": "filter_region",
       "type": "luzmochart",
-      "x": 460,
-      "y": 680,
+      "x": 468.4009434259465,
+      "y": 53.079596838725024,
       "width": 260,
-      "height": 100,
+      "height": 106.30070756946009,
       "angle": 0,
       "strokeColor": "#868e96",
       "backgroundColor": "#f8f9fa",
@@ -758,33 +903,52 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL2",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1030222,
-      "version": 1,
-      "versionNonce": 1030222,
+      "version": 141,
+      "versionNonce": 295251777,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false,
       "chartType": "dropdown-filter",
       "slots": [
-        { "name": "dimension", "content": [{ "columnId": "8ea293f6-5f75-4f01-a8e2-1dfbd53fbe2c", "datasetId": "2c1795f8-b0d7-4a01-b881-de4568f3d94a", "type": "hierarchy", "label": { "en": "Region" } }] }
+        {
+          "name": "dimension",
+          "content": [
+            {
+              "columnId": "8ea293f6-5f75-4f01-a8e2-1dfbd53fbe2c",
+              "datasetId": "2c1795f8-b0d7-4a01-b881-de4568f3d94a",
+              "type": "hierarchy",
+              "label": {
+                "en": "Region"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "exec-filter-region-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     },
     {
       "id": "filter_tier",
       "type": "luzmochart",
-      "x": 740,
-      "y": 680,
+      "x": 748.4009434259465,
+      "y": 53.079596838725024,
       "width": 260,
-      "height": 100,
+      "height": 107.35082549770333,
       "angle": 0,
       "strokeColor": "#868e96",
       "backgroundColor": "#f8f9fa",
@@ -796,33 +960,52 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL3",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1030223,
-      "version": 1,
-      "versionNonce": 1030223,
+      "version": 154,
+      "versionNonce": 1397039439,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774426809020,
       "link": null,
       "locked": false,
       "chartType": "dropdown-filter",
       "slots": [
-        { "name": "dimension", "content": [{ "columnId": "cea1bfc5-7db7-4975-b475-7988ca753ab4", "datasetId": "2c1795f8-b0d7-4a01-b881-de4568f3d94a", "type": "hierarchy", "label": { "en": "Customer Tier" } }] }
+        {
+          "name": "dimension",
+          "content": [
+            {
+              "columnId": "cea1bfc5-7db7-4975-b475-7988ca753ab4",
+              "datasetId": "2c1795f8-b0d7-4a01-b881-de4568f3d94a",
+              "type": "hierarchy",
+              "label": {
+                "en": "Customer Tier"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "exec-filter-tier-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     }
   ],
   "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
     "viewBackgroundColor": "#ffffff",
-    "gridSize": null,
-    "zoom": { "value": 1 },
-    "scrollX": 0,
-    "scrollY": 0
+    "lockedMultiSelections": {}
   },
   "files": {}
 }

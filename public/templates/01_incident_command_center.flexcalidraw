@@ -1,7 +1,7 @@
 {
   "type": "flexcalidraw",
   "version": 2,
-  "source": "http://localhost:3001",
+  "source": "https://examples.luzmo.com/flexcalidraw",
   "elements": [
     {
       "id": "frame_main",

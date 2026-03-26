@@ -1,18 +1,18 @@
 {
   "type": "flexcalidraw",
   "version": 2,
-  "source": "https://flexcalidraw.luzmo.com",
+  "source": "https://examples.luzmo.com/flexcalidraw",
   "elements": [
     {
       "id": "frame_main",
       "type": "frame",
-      "x": 0,
-      "y": 0,
+      "x": -635.0939236352914,
+      "y": -362.1078483627433,
       "width": 1850,
-      "height": 1200,
+      "height": 1529.5433249209684,
       "angle": 0,
       "strokeColor": "#087f5b",
-      "backgroundColor": "transparent",
+      "backgroundColor": "#ffffff",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
@@ -23,11 +23,11 @@
       "index": "a0",
       "roundness": null,
       "seed": 106001,
-      "version": 1,
-      "versionNonce": 106001,
+      "version": 205,
+      "versionNonce": 1510203230,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false,
       "name": "Sprint Execution Arena"
@@ -35,13 +35,13 @@
     {
       "id": "title_main",
       "type": "text",
-      "x": 50,
-      "y": 25,
-      "width": 450,
-      "height": 45,
+      "x": -585.0939236352914,
+      "y": -337.1078483627433,
+      "width": 580.2232984912285,
+      "height": 42.5,
       "angle": 0,
       "strokeColor": "#087f5b",
-      "backgroundColor": "transparent",
+      "backgroundColor": "#ffffff",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
@@ -52,11 +52,11 @@
       "index": "a1",
       "roundness": null,
       "seed": 106002,
-      "version": 1,
-      "versionNonce": 106002,
+      "version": 233,
+      "versionNonce": 1942420610,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false,
       "text": "⚡ SPRINT EXECUTION ARENA",
@@ -66,14 +66,46 @@
       "verticalAlign": "top",
       "containerId": null,
       "originalText": "⚡ SPRINT EXECUTION ARENA",
-      "autoResize": true,
+      "autoResize": false,
       "lineHeight": 1.25
+    },
+    {
+      "id": "aE_QwboqjmTBBHE6_i6w4",
+      "type": "frame",
+      "x": -612.0186315267414,
+      "y": -68.00467411141244,
+      "width": 732,
+      "height": 760,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1V",
+      "roundness": null,
+      "seed": 1802234660,
+      "version": 194,
+      "versionNonce": 1812197150,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774565266209,
+      "link": null,
+      "locked": false,
+      "customData": {
+        "aiSummaryChartId": "chart_burndown"
+      },
+      "name": "Burndown Chart — Chart + AI Summary"
     },
     {
       "id": "chart_burndown",
       "type": "luzmochart",
-      "x": 50,
-      "y": 95,
+      "x": -596.0186315267414,
+      "y": -52.00467411141244,
       "width": 700,
       "height": 380,
       "angle": 0,
@@ -85,35 +117,111 @@
       "roughness": 0,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
+      "frameId": "aE_QwboqjmTBBHE6_i6w4",
       "index": "a2",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 106003,
-      "version": 1,
-      "versionNonce": 106003,
+      "version": 169,
+      "versionNonce": 969710018,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565266209,
       "link": null,
       "locked": false,
       "chartType": "line-chart",
       "slots": [
-        { "name": "x-axis", "content": [{ "columnId": "92f64428-3b77-46b7-a615-9441b8e06e9f", "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0", "type": "datetime", "level": 5, "label": { "en": "Time" } }] },
-        { "name": "measure", "content": [{ "columnId": "2d6fd016-eaf4-4973-ac9d-9326ec810abb", "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0", "type": "numeric", "aggregationFunc": "sum", "label": { "en": "Tasks Completed" } }] }
+        {
+          "name": "x-axis",
+          "content": [
+            {
+              "columnId": "92f64428-3b77-46b7-a615-9441b8e06e9f",
+              "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0",
+              "type": "datetime",
+              "level": 4,
+              "label": {
+                "en": "Time"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "2d6fd016-eaf4-4973-ac9d-9326ec810abb",
+              "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0",
+              "type": "numeric",
+              "aggregationFunc": "sum",
+              "label": {
+                "en": "Tasks Completed"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "title": { "en": "Burndown Chart" }, "display": { "title": true } },
+      "options": {
+        "title": {
+          "en": "Burndown Chart"
+        },
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "sprint-burndown-ctx",
       "fontFamily": 1,
       "chartData": null,
       "chartOptions": null,
-      "aiSummaryEnabled": true
+      "aiSummaryEnabled": true,
+      "customData": {
+        "aiSummaryElementId": "tUROspwj2zU9rtWWwfEkb",
+        "aiSummaryFrameId": "aE_QwboqjmTBBHE6_i6w4"
+      }
+    },
+    {
+      "id": "tUROspwj2zU9rtWWwfEkb",
+      "type": "text",
+      "x": -596.0186315267414,
+      "y": 375.99532588858756,
+      "width": 700,
+      "height": 300,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": "aE_QwboqjmTBBHE6_i6w4",
+      "index": "a3",
+      "roundness": null,
+      "seed": 120815524,
+      "version": 2370,
+      "versionNonce": 171203422,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774565266209,
+      "link": null,
+      "locked": false,
+      "text": "The data reveals a dynamic pattern in the number of tasks completed over time.\nStarting from early 2024, there is a noticeable fluctuation in task completion, with\nsignificant peaks and troughs. In the latter half of 2024, tasks completed generally\nincreased, peaking at **61,427** in May 2024. However, this was followed by a decline,\nreaching a low of **31,377** by late July 2024. \n\nThe trend reversed in the fall, with a notable rise in October 2024, reaching **58,045**.\nThis upward momentum continued into early 2025, with a peak of **64,261** in October\n2025. However, the beginning of 2026 shows a sharp decline, with tasks completed\ndropping to **8,744** by mid-February 2026. \n\nOverall, the data indicates a cyclical pattern with periods of growth followed by sharp\ndeclines. The most recent data suggests a significant downturn, highlighting potential\nchallenges in maintaining task completion rates. This pattern of fluctuation could be\nindicative of seasonal factors or operational changes impacting productivity.",
+      "fontSize": 16,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "The data reveals a dynamic pattern in the number of tasks completed over time. Starting from early 2024, there is a noticeable fluctuation in task completion, with significant peaks and troughs. In the latter half of 2024, tasks completed generally increased, peaking at **61,427** in May 2024. However, this was followed by a decline, reaching a low of **31,377** by late July 2024. \n\nThe trend reversed in the fall, with a notable rise in October 2024, reaching **58,045**. This upward momentum continued into early 2025, with a peak of **64,261** in October 2025. However, the beginning of 2026 shows a sharp decline, with tasks completed dropping to **8,744** by mid-February 2026. \n\nOverall, the data indicates a cyclical pattern with periods of growth followed by sharp declines. The most recent data suggests a significant downturn, highlighting potential challenges in maintaining task completion rates. This pattern of fluctuation could be indicative of seasonal factors or operational changes impacting productivity.",
+      "autoResize": false,
+      "lineHeight": 1.25
     },
     {
       "id": "kanban_todo",
       "type": "rectangle",
-      "x": 780,
-      "y": 95,
+      "x": 134.44386574893053,
+      "y": -53.34283876430732,
       "width": 220,
       "height": 320,
       "angle": 0,
@@ -124,24 +232,28 @@
       "strokeStyle": "solid",
       "roughness": 0,
       "opacity": 100,
-      "groupIds": ["kanban"],
+      "groupIds": [
+        "kanban"
+      ],
       "frameId": "frame_main",
       "index": "a6",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 106007,
-      "version": 1,
-      "versionNonce": 106007,
+      "version": 223,
+      "versionNonce": 1720642370,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false
     },
     {
       "id": "kanban_todo_label",
       "type": "text",
-      "x": 830,
-      "y": 115,
+      "x": 184.44386574893053,
+      "y": -33.34283876430732,
       "width": 120,
       "height": 25,
       "angle": 0,
@@ -152,16 +264,18 @@
       "strokeStyle": "solid",
       "roughness": 0,
       "opacity": 100,
-      "groupIds": ["kanban"],
+      "groupIds": [
+        "kanban"
+      ],
       "frameId": "frame_main",
       "index": "a7",
       "roundness": null,
       "seed": 106008,
-      "version": 1,
-      "versionNonce": 106008,
+      "version": 223,
+      "versionNonce": 1050272222,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false,
       "text": "TO DO",
@@ -177,8 +291,8 @@
     {
       "id": "kanban_progress",
       "type": "rectangle",
-      "x": 1025,
-      "y": 95,
+      "x": 379.44386574893053,
+      "y": -53.34283876430732,
       "width": 220,
       "height": 320,
       "angle": 0,
@@ -189,24 +303,28 @@
       "strokeStyle": "solid",
       "roughness": 0,
       "opacity": 100,
-      "groupIds": ["kanban"],
+      "groupIds": [
+        "kanban"
+      ],
       "frameId": "frame_main",
       "index": "a8",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 106009,
-      "version": 1,
-      "versionNonce": 106009,
+      "version": 223,
+      "versionNonce": 2043949826,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false
     },
     {
       "id": "kanban_progress_label",
       "type": "text",
-      "x": 1055,
-      "y": 115,
+      "x": 409.44386574893053,
+      "y": -33.34283876430732,
       "width": 160,
       "height": 25,
       "angle": 0,
@@ -217,16 +335,18 @@
       "strokeStyle": "solid",
       "roughness": 0,
       "opacity": 100,
-      "groupIds": ["kanban"],
+      "groupIds": [
+        "kanban"
+      ],
       "frameId": "frame_main",
       "index": "a9",
       "roundness": null,
       "seed": 106010,
-      "version": 1,
-      "versionNonce": 106010,
+      "version": 223,
+      "versionNonce": 1660810782,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false,
       "text": "IN PROGRESS",
@@ -242,8 +362,8 @@
     {
       "id": "kanban_done",
       "type": "rectangle",
-      "x": 1270,
-      "y": 95,
+      "x": 624.4438657489305,
+      "y": -53.34283876430732,
       "width": 220,
       "height": 320,
       "angle": 0,
@@ -254,24 +374,28 @@
       "strokeStyle": "solid",
       "roughness": 0,
       "opacity": 100,
-      "groupIds": ["kanban"],
+      "groupIds": [
+        "kanban"
+      ],
       "frameId": "frame_main",
       "index": "aA",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 106011,
-      "version": 1,
-      "versionNonce": 106011,
+      "version": 223,
+      "versionNonce": 1285194434,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false
     },
     {
       "id": "kanban_done_label",
       "type": "text",
-      "x": 1315,
-      "y": 115,
+      "x": 669.4438657489305,
+      "y": -33.34283876430732,
       "width": 130,
       "height": 25,
       "angle": 0,
@@ -282,16 +406,18 @@
       "strokeStyle": "solid",
       "roughness": 0,
       "opacity": 100,
-      "groupIds": ["kanban"],
+      "groupIds": [
+        "kanban"
+      ],
       "frameId": "frame_main",
       "index": "aB",
       "roundness": null,
       "seed": 106012,
-      "version": 1,
-      "versionNonce": 106012,
+      "version": 223,
+      "versionNonce": 1112900190,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false,
       "text": "DONE",
@@ -305,10 +431,42 @@
       "lineHeight": 1.25
     },
     {
+      "id": "h8Sdd9eUdkjAIN2ftzeWb",
+      "type": "frame",
+      "x": 862.9813684732586,
+      "y": -68.00467411141244,
+      "width": 331.9999999999999,
+      "height": 940,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aBV",
+      "roundness": null,
+      "seed": 1354103836,
+      "version": 249,
+      "versionNonce": 755090498,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774565281085,
+      "link": null,
+      "locked": false,
+      "customData": {
+        "aiSummaryChartId": "chart_velocity"
+      },
+      "name": "Velocity Trend — Chart + AI Summary"
+    },
+    {
       "id": "chart_velocity",
       "type": "luzmochart",
-      "x": 1525,
-      "y": 95,
+      "x": 878.9813684732586,
+      "y": -52.00467411141244,
       "width": 300,
       "height": 320,
       "angle": 0,
@@ -320,38 +478,117 @@
       "roughness": 0,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
+      "frameId": "h8Sdd9eUdkjAIN2ftzeWb",
       "index": "aC",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 106013,
-      "version": 1,
-      "versionNonce": 106013,
+      "version": 179,
+      "versionNonce": 651476062,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565266209,
       "link": null,
       "locked": false,
       "chartType": "bar-chart",
       "slots": [
-        { "name": "y-axis", "content": [{ "columnId": "e3ab7480-5fd0-45f1-92cc-74a76c7b6553", "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0", "type": "hierarchy", "label": { "en": "Plan" } }] },
-        { "name": "measure", "content": [{ "columnId": "2d6fd016-eaf4-4973-ac9d-9326ec810abb", "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0", "type": "numeric", "aggregationFunc": "sum", "label": { "en": "Tasks Completed" } }] }
+        {
+          "name": "y-axis",
+          "content": [
+            {
+              "columnId": "e3ab7480-5fd0-45f1-92cc-74a76c7b6553",
+              "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0",
+              "type": "hierarchy",
+              "label": {
+                "en": "Plan"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "2d6fd016-eaf4-4973-ac9d-9326ec810abb",
+              "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0",
+              "type": "numeric",
+              "aggregationFunc": "sum",
+              "label": {
+                "en": "Tasks Completed"
+              },
+              "format": ".3s"
+            }
+          ]
+        }
       ],
-      "options": { "title": { "en": "Velocity Trend" }, "display": { "title": true } },
+      "options": {
+        "title": {
+          "en": "Velocity Trend"
+        },
+        "display": {
+          "title": true
+        },
+        "bars": {
+          "label": "absolute"
+        }
+      },
       "authConfig": null,
       "contextId": "sprint-velocity-ctx",
       "fontFamily": 1,
       "chartData": null,
       "chartOptions": null,
-      "aiSummaryEnabled": true
+      "aiSummaryEnabled": true,
+      "customData": {
+        "aiSummaryElementId": "SuTcXwlqr8nwh6F5PWba2",
+        "aiSummaryFrameId": "h8Sdd9eUdkjAIN2ftzeWb"
+      }
+    },
+    {
+      "id": "SuTcXwlqr8nwh6F5PWba2",
+      "type": "text",
+      "x": 878.9813684732586,
+      "y": 315.99532588858756,
+      "width": 300,
+      "height": 540,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": "h8Sdd9eUdkjAIN2ftzeWb",
+      "index": "aD",
+      "roundness": null,
+      "seed": 1122652060,
+      "version": 3192,
+      "versionNonce": 1061314,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774565281936,
+      "link": null,
+      "locked": false,
+      "text": "The data reveals a clear hierarchy in\nthe number of tasks completed across\ndifferent plans. The Free plan leads\nwith a substantial **2,751,586 tasks\ncompleted**, indicating a high level of\nengagement or user base. Following\nthis, the Business plan shows a\nsignificant number of tasks completed\nat **2,686,734**, closely trailing the\nFree plan. This suggests that the\nBusiness plan is also highly utilized,\npossibly reflecting its value\nproposition to users who require more\nfeatures than the Free plan offers.\nThe Enterprise plan, however, has\ncompleted **1,277,924 tasks**, which\nis notably lower than the other two\nplans. This could imply a more niche or\nspecialized user base, potentially\nfocusing on quality over quantity or\nhaving fewer users but with more\ncomplex needs. Overall, the data\nhighlights the Free plan's dominance in\ntask completion, with the Business\nplan not far behind, while the\nEnterprise plan caters to a different\nsegment with fewer tasks completed.",
+      "fontSize": 16,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "The data reveals a clear hierarchy in the number of tasks completed across different plans. The Free plan leads with a substantial **2,751,586 tasks completed**, indicating a high level of engagement or user base. Following this, the Business plan shows a significant number of tasks completed at **2,686,734**, closely trailing the Free plan. This suggests that the Business plan is also highly utilized, possibly reflecting its value proposition to users who require more features than the Free plan offers. The Enterprise plan, however, has completed **1,277,924 tasks**, which is notably lower than the other two plans. This could imply a more niche or specialized user base, potentially focusing on quality over quantity or having fewer users but with more complex needs. Overall, the data highlights the Free plan's dominance in task completion, with the Business plan not far behind, while the Enterprise plan caters to a different segment with fewer tasks completed.",
+      "autoResize": false,
+      "lineHeight": 1.25
     },
     {
       "id": "sticky_scope",
       "type": "rectangle",
-      "x": 380,
-      "y": 485,
+      "x": 138.17032266279,
+      "y": 288.4902581255303,
       "width": 230,
       "height": 85,
-      "angle": -3,
+      "angle": 0.0026224454065033598,
       "strokeColor": "#fcc419",
       "backgroundColor": "#fff9db",
       "fillStyle": "solid",
@@ -364,22 +601,27 @@
       "index": "aG",
       "roundness": null,
       "seed": 106017,
-      "version": 1,
-      "versionNonce": 106017,
+      "version": 565,
+      "versionNonce": 2026381662,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [
+        {
+          "id": "arrow_burndown_to_sticky",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1774565287996,
       "link": null,
       "locked": false
     },
     {
       "id": "sticky_scope_text",
       "type": "text",
-      "x": 395,
-      "y": 500,
+      "x": 160.17644215149778,
+      "y": 318.3781898784472,
       "width": 200,
       "height": 55,
-      "angle": -3,
+      "angle": 0.0022167593069166713,
       "strokeColor": "#713f12",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
@@ -392,11 +634,11 @@
       "index": "aH",
       "roundness": null,
       "seed": 106018,
-      "version": 1,
-      "versionNonce": 106018,
+      "version": 631,
+      "versionNonce": 1884007298,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false,
       "text": "Too many scope changes?",
@@ -412,10 +654,10 @@
     {
       "id": "arrow_burndown_to_sticky",
       "type": "arrow",
-      "x": 420,
-      "y": 475,
-      "width": -40,
-      "height": 15,
+      "x": -68.79466770828606,
+      "y": 329.28448009748706,
+      "width": 200.9153026309881,
+      "height": 34.27285186853783,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
@@ -427,29 +669,52 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aI",
-      "roundness": { "type": 2 },
+      "roundness": {
+        "type": 2
+      },
       "seed": 106019,
-      "version": 1,
-      "versionNonce": 106019,
+      "version": 595,
+      "versionNonce": 1278756254,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [-20, 8], [-40, 15]],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          64.07314522214438,
+          34.27285186853783
+        ],
+        [
+          200.9153026309881,
+          20.494178357841463
+        ]
+      ],
       "lastCommittedPoint": null,
       "startBinding": null,
-      "endBinding": null,
+      "endBinding": {
+        "elementId": "sticky_scope",
+        "mode": "orbit",
+        "fixedPoint": [
+          -0.026086956521738883,
+          0.7247739006772911
+        ]
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "moveMidPointsWithElement": false
     },
     {
       "id": "retro_notes",
       "type": "rectangle",
-      "x": 50,
-      "y": 615,
-      "width": 1775,
+      "x": -612.238785103335,
+      "y": 896.0996018618966,
+      "width": 1809.540016013091,
       "height": 250,
       "angle": 0,
       "strokeColor": "#868e96",
@@ -462,21 +727,23 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aJ",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 106020,
-      "version": 1,
-      "versionNonce": 106020,
+      "version": 535,
+      "versionNonce": 87051166,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565292020,
       "link": null,
       "locked": false
     },
     {
       "id": "retro_title",
       "type": "text",
-      "x": 70,
-      "y": 630,
+      "x": -594.1823538445856,
+      "y": 909.8443695040064,
       "width": 200,
       "height": 25,
       "angle": 0,
@@ -492,11 +759,11 @@
       "index": "aK",
       "roundness": null,
       "seed": 106021,
-      "version": 1,
-      "versionNonce": 106021,
+      "version": 458,
+      "versionNonce": 885710722,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565294286,
       "link": null,
       "locked": false,
       "text": "RETROSPECTIVE NOTES",
@@ -512,10 +779,10 @@
     {
       "id": "filter_panel",
       "type": "rectangle",
-      "x": 50,
-      "y": 900,
+      "x": -607.8420611864748,
+      "y": -264.9820801290682,
       "width": 1775,
-      "height": 120,
+      "height": 159.07404923069709,
       "angle": 0,
       "strokeColor": "#087f5b",
       "backgroundColor": "#e6fcf5",
@@ -527,23 +794,25 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 106022,
-      "version": 1,
-      "versionNonce": 106022,
+      "version": 324,
+      "versionNonce": 400048350,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false
     },
     {
       "id": "filter_date",
       "type": "luzmochart",
-      "x": 80,
-      "y": 910,
+      "x": -582.9072112999157,
+      "y": -226.03833112525297,
       "width": 400,
-      "height": 50,
+      "height": 97.03358219415509,
       "angle": 0,
       "strokeColor": "#087f5b",
       "backgroundColor": "#e6fcf5",
@@ -555,31 +824,51 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL1",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1060221,
-      "version": 1,
-      "versionNonce": 1060221,
+      "version": 369,
+      "versionNonce": 560940034,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false,
       "chartType": "date-filter",
       "slots": [
-        { "name": "time", "content": [{ "columnId": "92f64428-3b77-46b7-a615-9441b8e06e9f", "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0", "type": "datetime", "level": 5, "label": { "en": "Time" } }] }
+        {
+          "name": "time",
+          "content": [
+            {
+              "columnId": "92f64428-3b77-46b7-a615-9441b8e06e9f",
+              "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0",
+              "type": "datetime",
+              "level": 5,
+              "label": {
+                "en": "Time"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "sprint-filter-date-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     },
     {
       "id": "filter_plan",
       "type": "luzmochart",
-      "x": 500,
-      "y": 910,
+      "x": -166.59961433324338,
+      "y": -230.4607100256493,
       "width": 280,
       "height": 100,
       "angle": 0,
@@ -593,31 +882,50 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL2",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1060222,
-      "version": 1,
-      "versionNonce": 1060222,
+      "version": 289,
+      "versionNonce": 1662547230,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false,
       "chartType": "dropdown-filter",
       "slots": [
-        { "name": "dimension", "content": [{ "columnId": "e3ab7480-5fd0-45f1-92cc-74a76c7b6553", "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0", "type": "hierarchy", "label": { "en": "Plan" } }] }
+        {
+          "name": "dimension",
+          "content": [
+            {
+              "columnId": "e3ab7480-5fd0-45f1-92cc-74a76c7b6553",
+              "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0",
+              "type": "hierarchy",
+              "label": {
+                "en": "Plan"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "sprint-filter-plan-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     },
     {
       "id": "filter_department",
       "type": "luzmochart",
-      "x": 800,
-      "y": 910,
+      "x": 133.40038566675662,
+      "y": -230.4607100256493,
       "width": 280,
       "height": 100,
       "angle": 0,
@@ -631,33 +939,52 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL3",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1060223,
-      "version": 1,
-      "versionNonce": 1060223,
+      "version": 289,
+      "versionNonce": 1353413570,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565287996,
       "link": null,
       "locked": false,
       "chartType": "dropdown-filter",
       "slots": [
-        { "name": "dimension", "content": [{ "columnId": "a4007309-5f19-4996-aa56-28e7090b2e7d", "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0", "type": "hierarchy", "label": { "en": "Department" } }] }
+        {
+          "name": "dimension",
+          "content": [
+            {
+              "columnId": "a4007309-5f19-4996-aa56-28e7090b2e7d",
+              "datasetId": "8a3223bf-ec4a-4fbd-9568-f8b6215101b0",
+              "type": "hierarchy",
+              "label": {
+                "en": "Department"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "sprint-filter-dept-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     }
   ],
   "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
     "viewBackgroundColor": "#f8fff9",
-    "gridSize": null,
-    "zoom": { "value": 1 },
-    "scrollX": 0,
-    "scrollY": 0
+    "lockedMultiSelections": {}
   },
   "files": {}
 }

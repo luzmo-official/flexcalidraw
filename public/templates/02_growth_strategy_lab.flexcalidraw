@@ -1,15 +1,89 @@
 {
   "type": "flexcalidraw",
   "version": 2,
-  "source": "https://flexcalidraw.luzmo.com",
+  "source": "https://examples.luzmo.com/flexcalidraw",
   "elements": [
+    {
+      "id": "filter_panel",
+      "type": "rectangle",
+      "x": -790.0694354706274,
+      "y": -416.6216743734252,
+      "width": 1855,
+      "height": 189.29130155827514,
+      "angle": 0,
+      "strokeColor": "#5c4dae",
+      "backgroundColor": "#f8f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": "frame_main",
+      "index": "Zy",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 102023,
+      "version": 534,
+      "versionNonce": 1324785436,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774564386337,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "83tgtmGks36lCHpawzGRC",
+      "type": "luzmochart",
+      "x": 82.62742733570724,
+      "y": 155.47394631967583,
+      "width": 277.0497940846125,
+      "height": 39.103124090020344,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": "frame_main",
+      "index": "Zz",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 237850469,
+      "version": 106,
+      "versionNonce": 855604393,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774425969222,
+      "link": null,
+      "locked": false,
+      "chartType": "date-filter",
+      "slots": [
+        {
+          "name": "time",
+          "content": []
+        }
+      ],
+      "options": {},
+      "authConfig": null,
+      "contextId": "luzmo-chart-1774425807284-96ottgowz",
+      "fontFamily": 5,
+      "aiSummaryEnabled": false,
+      "chartData": null,
+      "chartOptions": null
+    },
     {
       "id": "frame_main",
       "type": "frame",
-      "x": 0,
-      "y": 0,
-      "width": 1900,
-      "height": 1300,
+      "x": -820.6865549226998,
+      "y": -518.3341999261747,
+      "width": 1912.829291839127,
+      "height": 1673.6531248145766,
       "angle": 0,
       "strokeColor": "#5c4dae",
       "backgroundColor": "transparent",
@@ -23,11 +97,11 @@
       "index": "a0",
       "roundness": null,
       "seed": 102001,
-      "version": 1,
-      "versionNonce": 102001,
+      "version": 182,
+      "versionNonce": 1166826396,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "name": "Growth Strategy Lab"
@@ -35,10 +109,10 @@
     {
       "id": "title_main",
       "type": "text",
-      "x": 50,
-      "y": 25,
-      "width": 450,
-      "height": 50,
+      "x": -770.6865549226998,
+      "y": -493.33419992617473,
+      "width": 581.961134873419,
+      "height": 45,
       "angle": 0,
       "strokeColor": "#5c4dae",
       "backgroundColor": "transparent",
@@ -52,11 +126,11 @@
       "index": "a1",
       "roundness": null,
       "seed": 102002,
-      "version": 1,
-      "versionNonce": 102002,
+      "version": 147,
+      "versionNonce": 1753095708,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564389747,
       "link": null,
       "locked": false,
       "text": "🚀 GROWTH STRATEGY LAB",
@@ -66,14 +140,14 @@
       "verticalAlign": "top",
       "containerId": null,
       "originalText": "🚀 GROWTH STRATEGY LAB",
-      "autoResize": true,
+      "autoResize": false,
       "lineHeight": 1.25
     },
     {
       "id": "idea_parking",
       "type": "rectangle",
-      "x": 40,
-      "y": 95,
+      "x": -786.0842162076101,
+      "y": -169.94478681164355,
       "width": 280,
       "height": 480,
       "angle": 0,
@@ -87,21 +161,23 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "a2",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 102003,
-      "version": 1,
-      "versionNonce": 102003,
+      "version": 287,
+      "versionNonce": 1676092572,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false
     },
     {
       "id": "idea_title",
       "type": "text",
-      "x": 55,
-      "y": 105,
+      "x": -771.0842162076101,
+      "y": -159.94478681164355,
       "width": 200,
       "height": 25,
       "angle": 0,
@@ -117,11 +193,11 @@
       "index": "a3",
       "roundness": null,
       "seed": 102004,
-      "version": 1,
-      "versionNonce": 102004,
+      "version": 287,
+      "versionNonce": 1162883356,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "text": "💡 IDEA PARKING LOT",
@@ -137,11 +213,11 @@
     {
       "id": "sticky_checkout",
       "type": "rectangle",
-      "x": 55,
-      "y": 150,
+      "x": -771.0842162076101,
+      "y": -114.94478681164355,
       "width": 245,
       "height": 75,
-      "angle": 3,
+      "angle": 6.26974165626748,
       "strokeColor": "#fcc419",
       "backgroundColor": "#fff9db",
       "fillStyle": "solid",
@@ -154,22 +230,22 @@
       "index": "a4",
       "roundness": null,
       "seed": 102005,
-      "version": 1,
-      "versionNonce": 102005,
+      "version": 440,
+      "versionNonce": 518237596,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false
     },
     {
       "id": "sticky_checkout_text",
       "type": "text",
-      "x": 65,
-      "y": 165,
-      "width": 225,
-      "height": 45,
-      "angle": 3,
+      "x": -761.3325312930272,
+      "y": -99.05806853683555,
+      "width": 130.21388244628906,
+      "height": 17.5,
+      "angle": 6.264524859181611,
       "strokeColor": "#713f12",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
@@ -182,28 +258,28 @@
       "index": "a5",
       "roundness": null,
       "seed": 102006,
-      "version": 1,
-      "versionNonce": 102006,
+      "version": 391,
+      "versionNonce": 1641257500,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
-      "text": "Test new checkout copy",
+      "text": "Test new checkout",
       "fontSize": 14,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Test new checkout copy",
+      "originalText": "Test new checkout",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
       "id": "funnel_sketch",
       "type": "rectangle",
-      "x": 350,
-      "y": 95,
+      "x": -476.72115360876546,
+      "y": -169.94478681164355,
       "width": 500,
       "height": 420,
       "angle": 0,
@@ -219,19 +295,19 @@
       "index": "a6",
       "roundness": null,
       "seed": 102007,
-      "version": 1,
-      "versionNonce": 102007,
+      "version": 288,
+      "versionNonce": 152172188,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false
     },
     {
       "id": "funnel_label",
       "type": "text",
-      "x": 380,
-      "y": 115,
+      "x": -446.0842162076101,
+      "y": -149.94478681164355,
       "width": 280,
       "height": 25,
       "angle": 0,
@@ -247,11 +323,11 @@
       "index": "a7",
       "roundness": null,
       "seed": 102008,
-      "version": 1,
-      "versionNonce": 102008,
+      "version": 287,
+      "versionNonce": 1632682780,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "text": "FUNNEL — Awake → Signup → Checkout → Paid",
@@ -267,8 +343,8 @@
     {
       "id": "stage_highlight",
       "type": "rectangle",
-      "x": 480,
-      "y": 280,
+      "x": -346.72115360876523,
+      "y": 10.596651380269464,
       "width": 240,
       "height": 80,
       "angle": 0,
@@ -282,21 +358,28 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "a8",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 102009,
-      "version": 1,
-      "versionNonce": 102009,
+      "version": 536,
+      "versionNonce": 1359085468,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [
+        {
+          "id": "arrow_idea_to_funnel",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1774564386337,
       "link": null,
       "locked": false
     },
     {
       "id": "stage_highlight_text",
       "type": "text",
-      "x": 550,
-      "y": 305,
+      "x": -276.0842162076101,
+      "y": 40.05521318835645,
       "width": 100,
       "height": 30,
       "angle": 0,
@@ -312,11 +395,11 @@
       "index": "a9",
       "roundness": null,
       "seed": 102010,
-      "version": 1,
-      "versionNonce": 102010,
+      "version": 287,
+      "versionNonce": 542616604,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "text": "CHECKOUT",
@@ -330,10 +413,42 @@
       "lineHeight": 1.25
     },
     {
+      "id": "pCc6ePurp-Lla5sJwTJmn",
+      "type": "frame",
+      "x": 32.11395305244423,
+      "y": -185.94478681164355,
+      "width": 452,
+      "height": 460,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a9V",
+      "roundness": null,
+      "seed": 1461680811,
+      "version": 344,
+      "versionNonce": 295252764,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774564394035,
+      "link": null,
+      "locked": false,
+      "customData": {
+        "aiSummaryChartId": "chart_funnel"
+      },
+      "name": "Funnel Conversion — Chart + AI Summary"
+    },
+    {
       "id": "chart_funnel",
       "type": "luzmochart",
-      "x": 875,
-      "y": 95,
+      "x": 48.11395305244423,
+      "y": -169.94478681164355,
       "width": 420,
       "height": 320,
       "angle": 0,
@@ -345,20 +460,57 @@
       "roughness": 0,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
+      "frameId": "pCc6ePurp-Lla5sJwTJmn",
       "index": "aA",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 102011,
-      "version": 1,
-      "versionNonce": 102011,
+      "version": 284,
+      "versionNonce": 393762076,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "chartType": "funnel-chart",
-      "slots": [],
-      "options": { "title": { "en": "Funnel Conversion" }, "display": { "title": true } },
+      "slots": [
+        {
+          "name": "category",
+          "content": [
+            {
+              "columnId": "cf284d03-4a22-43e0-91b9-44915dc14f9c",
+              "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8",
+              "type": "hierarchy",
+              "label": {
+                "en": "Primary Use Case"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "0b6ca06c-aae7-46c0-8e25-2362d78e6495",
+              "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8",
+              "type": "numeric",
+              "aggregationFunc": "sum",
+              "label": {
+                "en": "Leads Generated"
+              }
+            }
+          ]
+        }
+      ],
+      "options": {
+        "title": {
+          "en": "Funnel Conversion"
+        },
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "growth-funnel-ctx",
       "themeId": "default",
@@ -366,115 +518,57 @@
       "chartData": null,
       "chartOptions": null,
       "aiSummaryEnabled": true,
-      "customData": { "luzmoPlaceholder": true, "suggestedDataset": "conversion_funnel", "suggestedMeasure": "conversion_rate", "suggestedDimension": "stage" }
+      "customData": {
+        "luzmoPlaceholder": true,
+        "suggestedDataset": "Marketing Automations (Demo)",
+        "suggestedMeasure": "leads_generated",
+        "suggestedDimension": "primary_use_case",
+        "aiSummaryElementId": "NeXPIN_kUqFKbfese2QOw",
+        "aiSummaryFrameId": "pCc6ePurp-Lla5sJwTJmn"
+      }
     },
     {
-      "id": "chart_funnel_label",
+      "id": "NeXPIN_kUqFKbfese2QOw",
       "type": "text",
-      "x": 880,
-      "y": 65,
-      "width": 350,
-      "height": 25,
-      "angle": 0,
-      "strokeColor": "#495057",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 0,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aB",
-      "roundness": null,
-      "seed": 102012,
-      "version": 1,
-      "versionNonce": 102012,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
-      "link": null,
-      "locked": false,
-      "text": "LuzmoFlex: Funnel Chart — Dataset: conversion_funnel",
-      "fontSize": 11,
-      "fontFamily": 1,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "containerId": null,
-      "originalText": "LuzmoFlex: Funnel Chart — Dataset: conversion_funnel",
-      "autoResize": true,
-      "lineHeight": 1.25
-    },
-    {
-      "id": "ai_friction_panel",
-      "type": "rectangle",
-      "x": 875,
-      "y": 430,
+      "x": 48.11395305244423,
+      "y": 198.05521318835645,
       "width": 420,
-      "height": 85,
+      "height": 60,
       "angle": 0,
-      "strokeColor": "#2f9e44",
-      "backgroundColor": "#ebfbee",
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 0,
+      "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aC",
-      "roundness": { "type": 3 },
-      "seed": 102013,
-      "version": 1,
-      "versionNonce": 102013,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
-      "link": null,
-      "locked": false
-    },
-    {
-      "id": "ai_friction_text",
-      "type": "text",
-      "x": 895,
-      "y": 445,
-      "width": 380,
-      "height": 55,
-      "angle": 0,
-      "strokeColor": "#2f9e44",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 0,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aD",
+      "frameId": "pCc6ePurp-Lla5sJwTJmn",
+      "index": "aAV",
       "roundness": null,
-      "seed": 102014,
-      "version": 1,
-      "versionNonce": 102014,
+      "seed": 655111179,
+      "version": 3427,
+      "versionNonce": 689919772,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564394136,
       "link": null,
       "locked": false,
-      "text": "AI Summary: Enabled\n\nAI Insight: Paid social drop-off at checkout increased 14% week-over-week.",
-      "fontSize": 13,
-      "fontFamily": 1,
+      "text": "The funnel chart data reveals a hierarchy of\neffectiveness in generating leads across different\nprimary ",
+      "fontSize": 16,
+      "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "AI Summary: Enabled\n\nAI Insight: Paid social drop-off at checkout increased 14% week-over-week.",
-      "autoResize": true,
+      "originalText": "The funnel chart data reveals a hierarchy of effectiveness in generating leads across different primary ",
+      "autoResize": false,
       "lineHeight": 1.25
     },
     {
       "id": "chart_channel",
       "type": "luzmochart",
-      "x": 1325,
-      "y": 95,
+      "x": 507.39829513774885,
+      "y": -171.24978855708343,
       "width": 320,
       "height": 260,
       "angle": 0,
@@ -488,68 +582,106 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aE",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 102015,
-      "version": 1,
-      "versionNonce": 102015,
+      "version": 303,
+      "versionNonce": 1531100700,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "chartType": "bar-chart",
-      "slots": [],
-      "options": { "title": { "en": "Channel Performance" }, "display": { "title": true } },
+      "slots": [
+        {
+          "name": "y-axis",
+          "content": [
+            {
+              "columnId": "f6f8f530-db8c-4ce1-8036-ebf05874dea1",
+              "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8",
+              "type": "hierarchy",
+              "label": {
+                "en": "Channel"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "1d47a267-f749-43ff-9400-3fa0c6f09db2",
+              "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8",
+              "type": "numeric",
+              "aggregationFunc": "sum",
+              "label": {
+                "en": "Revenue Influenced (USD)"
+              }
+            }
+          ]
+        }
+      ],
+      "options": {
+        "title": {
+          "en": "Channel Performance"
+        },
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "growth-channel-ctx",
       "themeId": "default",
       "fontFamily": 1,
       "chartData": null,
       "chartOptions": null,
-      "customData": { "luzmoPlaceholder": true, "suggestedDataset": "channel_metrics", "suggestedMeasure": "conversions", "suggestedDimension": "channel" }
+      "customData": {
+        "luzmoPlaceholder": true,
+        "suggestedDataset": "Marketing Automations (Demo)",
+        "suggestedMeasure": "revenue_influenced_usd",
+        "suggestedDimension": "channel"
+      },
+      "aiSummaryEnabled": false
     },
     {
-      "id": "chart_channel_label",
-      "type": "text",
-      "x": 1330,
-      "y": 65,
-      "width": 280,
-      "height": 25,
+      "id": "HWRp3ZOWhUAgxrWKr_tyx",
+      "type": "frame",
+      "x": 494.5114696341227,
+      "y": 111.02023587907433,
+      "width": 352,
+      "height": 590,
       "angle": 0,
-      "strokeColor": "#495057",
+      "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 0,
+      "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aF",
+      "frameId": null,
+      "index": "aFV",
       "roundness": null,
-      "seed": 102016,
-      "version": 1,
-      "versionNonce": 102016,
+      "seed": 649162853,
+      "version": 422,
+      "versionNonce": 1284587548,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564394136,
       "link": null,
       "locked": false,
-      "text": "LuzmoFlex: Bar Chart — Dataset: channel_metrics",
-      "fontSize": 11,
-      "fontFamily": 1,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "containerId": null,
-      "originalText": "LuzmoFlex: Bar Chart — Dataset: channel_metrics",
-      "autoResize": true,
-      "lineHeight": 1.25
+      "customData": {
+        "aiSummaryChartId": "chart_cohort"
+      },
+      "name": "Cohort Retention — Chart + AI Summary"
     },
     {
       "id": "chart_cohort",
       "type": "luzmochart",
-      "x": 1325,
-      "y": 375,
+      "x": 510.5114696341227,
+      "y": 127.02023587907433,
       "width": 320,
       "height": 290,
       "angle": 0,
@@ -561,20 +693,58 @@
       "roughness": 0,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
+      "frameId": "HWRp3ZOWhUAgxrWKr_tyx",
       "index": "aG",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 102017,
-      "version": 1,
-      "versionNonce": 102017,
+      "version": 345,
+      "versionNonce": 474408732,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "chartType": "line-chart",
-      "slots": [],
-      "options": { "title": { "en": "Cohort Retention" }, "display": { "title": true } },
+      "slots": [
+        {
+          "name": "x-axis",
+          "content": [
+            {
+              "columnId": "8d746ebc-7572-4c51-a309-39e39baba7be",
+              "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8",
+              "type": "datetime",
+              "level": 3,
+              "label": {
+                "en": "Month"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "399dd531-a081-48af-8cad-98d1d7f39bf3",
+              "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8",
+              "type": "numeric",
+              "aggregationFunc": "sum",
+              "label": {
+                "en": "MRR (USD)"
+              }
+            }
+          ]
+        }
+      ],
+      "options": {
+        "title": {
+          "en": "Cohort Retention"
+        },
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "growth-cohort-ctx",
       "themeId": "default",
@@ -582,51 +752,58 @@
       "chartData": null,
       "chartOptions": null,
       "aiSummaryEnabled": true,
-      "customData": { "luzmoPlaceholder": true, "suggestedDataset": "cohort_retention", "suggestedMeasure": "retention_pct", "suggestedDimension": "week" }
+      "customData": {
+        "luzmoPlaceholder": true,
+        "suggestedDataset": "Marketing Automations (Demo)",
+        "suggestedMeasure": "mrr_usd",
+        "suggestedDimension": "event_timestamp",
+        "aiSummaryElementId": "nLw8q1DGgUpmU93HJVrsi",
+        "aiSummaryFrameId": "HWRp3ZOWhUAgxrWKr_tyx"
+      }
     },
     {
-      "id": "chart_cohort_label",
+      "id": "nLw8q1DGgUpmU93HJVrsi",
       "type": "text",
-      "x": 1330,
-      "y": 345,
-      "width": 290,
-      "height": 25,
+      "x": 510.5114696341227,
+      "y": 465.02023587907433,
+      "width": 320,
+      "height": 220,
       "angle": 0,
-      "strokeColor": "#495057",
+      "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 0,
+      "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aH",
+      "frameId": "HWRp3ZOWhUAgxrWKr_tyx",
+      "index": "aGV",
       "roundness": null,
-      "seed": 102018,
-      "version": 1,
-      "versionNonce": 102018,
+      "seed": 1825102085,
+      "version": 3205,
+      "versionNonce": 1239290780,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564394136,
       "link": null,
       "locked": false,
-      "text": "LuzmoFlex: Line Chart — Dataset: cohort_retention",
-      "fontSize": 11,
-      "fontFamily": 1,
+      "text": "The data reveals a dynamic journey of\nMonthly Recurring Revenue (MRR) over\nthe past few years. Starting from\nDecember 2023, MRR was\n**$1,304,103**, and it showed a general\nupward trend through 2024, peaking at\n**$1,872,271** in May 2025. This\nperiod was marked by significant growth,\nparticularly from March 2024's\n**$1,310,142** to November 2025's\n**$1,",
+      "fontSize": 16,
+      "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "LuzmoFlex: Line Chart — Dataset: cohort_retention",
-      "autoResize": true,
+      "originalText": "The data reveals a dynamic journey of Monthly Recurring Revenue (MRR) over the past few years. Starting from December 2023, MRR was **$1,304,103**, and it showed a general upward trend through 2024, peaking at **$1,872,271** in May 2025. This period was marked by significant growth, particularly from March 2024's **$1,310,142** to November 2025's **$1,",
+      "autoResize": false,
       "lineHeight": 1.25
     },
     {
       "id": "chart_aov",
       "type": "luzmochart",
-      "x": 1675,
-      "y": 95,
-      "width": 200,
+      "x": 848.9157837923899,
+      "y": -169.94478681164355,
+      "width": 216.03661479890883,
       "height": 200,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -639,70 +816,63 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aI",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 102019,
-      "version": 1,
-      "versionNonce": 102019,
+      "version": 299,
+      "versionNonce": 655675420,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "chartType": "evolution-number",
-      "slots": [],
-      "options": { "title": { "en": "AOV Trend" }, "display": { "title": true } },
+      "slots": [
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "1d47a267-f749-43ff-9400-3fa0c6f09db2",
+              "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8",
+              "type": "numeric",
+              "aggregationFunc": "average",
+              "label": {
+                "en": "Revenue Influenced (USD)"
+              }
+            }
+          ]
+        }
+      ],
+      "options": {
+        "title": {
+          "en": "AOV Trend"
+        },
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "growth-aov-ctx",
       "themeId": "default",
       "fontFamily": 1,
       "chartData": null,
       "chartOptions": null,
-      "customData": { "luzmoPlaceholder": true, "suggestedDataset": "revenue_metrics", "suggestedMeasure": "aov", "suggestedDimension": null }
-    },
-    {
-      "id": "chart_aov_label",
-      "type": "text",
-      "x": 1680,
-      "y": 65,
-      "width": 180,
-      "height": 25,
-      "angle": 0,
-      "strokeColor": "#495057",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 0,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aJ",
-      "roundness": null,
-      "seed": 102020,
-      "version": 1,
-      "versionNonce": 102020,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
-      "link": null,
-      "locked": false,
-      "text": "LuzmoFlex: Evolution Number — Dataset: revenue_metrics",
-      "fontSize": 11,
-      "fontFamily": 1,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "containerId": null,
-      "originalText": "LuzmoFlex: Evolution Number — Dataset: revenue_metrics",
-      "autoResize": true,
-      "lineHeight": 1.25
+      "customData": {
+        "luzmoPlaceholder": true,
+        "suggestedDataset": "Marketing Automations (Demo)",
+        "suggestedMeasure": "revenue_influenced_usd",
+        "suggestedDimension": null
+      },
+      "aiSummaryEnabled": false
     },
     {
       "id": "arrow_idea_to_funnel",
       "type": "arrow",
-      "x": 320,
-      "y": 185,
-      "width": 35,
-      "height": 100,
+      "x": -506.0842162076101,
+      "y": -79.94478681164355,
+      "width": 152.86306259884492,
+      "height": 132.50080520367214,
       "angle": 0,
       "strokeColor": "#ff6b9d",
       "backgroundColor": "transparent",
@@ -714,19 +884,41 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aK",
-      "roundness": { "type": 2 },
+      "roundness": {
+        "type": 2
+      },
       "seed": 102021,
-      "version": 1,
-      "versionNonce": 102021,
+      "version": 769,
+      "versionNonce": 1018981532,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [35, 50], [35, 100]],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          44.554061017329104,
+          99.04417988895636
+        ],
+        [
+          152.86306259884492,
+          132.50080520367214
+        ]
+      ],
       "lastCommittedPoint": null,
       "startBinding": null,
-      "endBinding": null,
+      "endBinding": {
+        "elementId": "stage_highlight",
+        "mode": "orbit",
+        "fixedPoint": [
+          0.23377275650836063,
+          0.7662272434916375
+        ]
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "elbowed": false
@@ -734,8 +926,8 @@
     {
       "id": "annotation_test",
       "type": "text",
-      "x": 360,
-      "y": 380,
+      "x": 355.40416945503534,
+      "y": 633.3894131145312,
       "width": 180,
       "height": 25,
       "angle": 0,
@@ -751,11 +943,11 @@
       "index": "aL",
       "roundness": null,
       "seed": 102022,
-      "version": 1,
-      "versionNonce": 102022,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "version": 181,
+      "versionNonce": 387294503,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774425985356,
       "link": null,
       "locked": false,
       "text": "Test new checkout copy",
@@ -769,38 +961,10 @@
       "lineHeight": 1.25
     },
     {
-      "id": "filter_panel",
-      "type": "rectangle",
-      "x": 40,
-      "y": 600,
-      "width": 1855,
-      "height": 180,
-      "angle": 0,
-      "strokeColor": "#5c4dae",
-      "backgroundColor": "#f8f5ff",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "roughness": 0,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": "frame_main",
-      "index": "aM",
-      "roundness": { "type": 3 },
-      "seed": 102023,
-      "version": 1,
-      "versionNonce": 102023,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
-      "link": null,
-      "locked": false
-    },
-    {
       "id": "filter_title",
       "type": "text",
-      "x": 60,
-      "y": 615,
+      "x": -770.6703312861091,
+      "y": -402.5230180966478,
       "width": 80,
       "height": 20,
       "angle": 0,
@@ -816,11 +980,11 @@
       "index": "aN",
       "roundness": null,
       "seed": 102024,
-      "version": 1,
-      "versionNonce": 102024,
+      "version": 468,
+      "versionNonce": 1681684764,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "text": "FILTERS",
@@ -836,10 +1000,10 @@
     {
       "id": "filter_date",
       "type": "luzmochart",
-      "x": 60,
-      "y": 645,
+      "x": -768.8386130703125,
+      "y": -365.6648693984061,
       "width": 360,
-      "height": 50,
+      "height": 121.22974544922505,
       "angle": 0,
       "strokeColor": "#5c4dae",
       "backgroundColor": "#f8f5ff",
@@ -851,31 +1015,51 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aO1",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1020251,
-      "version": 1,
-      "versionNonce": 1020251,
+      "version": 766,
+      "versionNonce": 688321948,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "chartType": "date-filter",
       "slots": [
-        { "name": "time", "content": [{ "columnId": "8d746ebc-7572-4c51-a309-39e39baba7be", "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8", "type": "datetime", "level": 5, "label": { "en": "Time" } }] }
+        {
+          "name": "time",
+          "content": [
+            {
+              "columnId": "8d746ebc-7572-4c51-a309-39e39baba7be",
+              "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8",
+              "type": "datetime",
+              "level": 5,
+              "label": {
+                "en": "Time"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "growth-filter-date-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     },
     {
       "id": "filter_channel",
       "type": "luzmochart",
-      "x": 440,
-      "y": 645,
+      "x": -390.6703312861091,
+      "y": -372.5230180966478,
       "width": 280,
       "height": 130,
       "angle": 0,
@@ -889,31 +1073,50 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aO2",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1020252,
-      "version": 1,
-      "versionNonce": 1020252,
+      "version": 468,
+      "versionNonce": 1481499164,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "chartType": "dropdown-filter",
       "slots": [
-        { "name": "dimension", "content": [{ "columnId": "f6f8f530-db8c-4ce1-8036-ebf05874dea1", "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8", "type": "hierarchy", "label": { "en": "Channel" } }] }
+        {
+          "name": "dimension",
+          "content": [
+            {
+              "columnId": "f6f8f530-db8c-4ce1-8036-ebf05874dea1",
+              "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8",
+              "type": "hierarchy",
+              "label": {
+                "en": "Channel"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "growth-filter-channel-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     },
     {
       "id": "filter_use_case",
       "type": "luzmochart",
-      "x": 740,
-      "y": 645,
+      "x": -90.6703312861091,
+      "y": -372.5230180966478,
       "width": 280,
       "height": 130,
       "angle": 0,
@@ -927,33 +1130,52 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aO3",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1020253,
-      "version": 1,
-      "versionNonce": 1020253,
+      "version": 468,
+      "versionNonce": 1224949404,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774564386337,
       "link": null,
       "locked": false,
       "chartType": "dropdown-filter",
       "slots": [
-        { "name": "dimension", "content": [{ "columnId": "cf284d03-4a22-43e0-91b9-44915dc14f9c", "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8", "type": "hierarchy", "label": { "en": "Primary Use Case" } }] }
+        {
+          "name": "dimension",
+          "content": [
+            {
+              "columnId": "cf284d03-4a22-43e0-91b9-44915dc14f9c",
+              "datasetId": "c7af4ec1-aee0-4c09-89e5-1e537a0fc8c8",
+              "type": "hierarchy",
+              "label": {
+                "en": "Primary Use Case"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "growth-filter-usecase-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     }
   ],
   "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
     "viewBackgroundColor": "#faf8ff",
-    "gridSize": null,
-    "zoom": { "value": 1 },
-    "scrollX": 0,
-    "scrollY": 0
+    "lockedMultiSelections": {}
   },
   "files": {}
 }

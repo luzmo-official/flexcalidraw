@@ -1,15 +1,149 @@
 {
   "type": "flexcalidraw",
   "version": 2,
-  "source": "https://flexcalidraw.luzmo.com",
+  "source": "https://examples.luzmo.com/flexcalidraw",
   "elements": [
+    {
+      "id": "uG03tMUba1Dqtu_59idhY",
+      "type": "text",
+      "x": 519.927831435878,
+      "y": 820.0452965601655,
+      "width": 8,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": "frame_main",
+      "index": "Zz",
+      "roundness": null,
+      "seed": 1718689692,
+      "version": 9,
+      "versionNonce": 1378491548,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774564614466,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "6h0sflLujIXM-N7bHG23L",
+      "type": "luzmochart",
+      "x": -580.7672450664314,
+      "y": 530.3881496903408,
+      "width": 781.8340849923808,
+      "height": 429.0855197082883,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": "frame_main",
+      "index": "ZzV",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1504218908,
+      "version": 425,
+      "versionNonce": 1303450782,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774565180535,
+      "link": null,
+      "locked": false,
+      "chartType": "heat-table",
+      "slots": [
+        {
+          "name": "y-axis",
+          "content": [
+            {
+              "type": "hierarchy",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "set": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "columnId": "16052be5-e3eb-4724-abdf-970c2d751ec8",
+              "column": "16052be5-e3eb-4724-abdf-970c2d751ec8",
+              "label": {
+                "en": "employee_role"
+              },
+              "lowestLevel": 0
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "type": "numeric",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "set": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "columnId": "76a991ad-56de-42be-b5a6-65ef54730c41",
+              "column": "76a991ad-56de-42be-b5a6-65ef54730c41",
+              "label": {
+                "en": "hires_made"
+              },
+              "lowestLevel": 0,
+              "format": ",.3as",
+              "aggregationFunc": "sum"
+            }
+          ]
+        },
+        {
+          "name": "x-axis",
+          "content": [
+            {
+              "type": "hierarchy",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "set": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "columnId": "ed4f8d83-7270-4b67-9486-b9c7e4ed1117",
+              "column": "ed4f8d83-7270-4b67-9486-b9c7e4ed1117",
+              "label": {
+                "en": "industry_vertical"
+              },
+              "lowestLevel": 0
+            }
+          ]
+        }
+      ],
+      "options": {
+        "display": {
+          "values": true
+        },
+        "title": {
+          "en": "Amount of Hiress by Role and Industry"
+        }
+      },
+      "authConfig": null,
+      "contextId": "luzmo-chart-1774564631677-x0t9n0zi7",
+      "fontFamily": 5,
+      "aiSummaryEnabled": false,
+      "chartData": null,
+      "chartOptions": null
+    },
     {
       "id": "frame_main",
       "type": "frame",
-      "x": 0,
-      "y": 0,
-      "width": 1800,
-      "height": 1250,
+      "x": -1088.3690022146839,
+      "y": -558.3749991496578,
+      "width": 1728.924151192414,
+      "height": 1871.1168448613885,
       "angle": 0,
       "strokeColor": "#5c7cfa",
       "backgroundColor": "transparent",
@@ -23,11 +157,11 @@
       "index": "a0",
       "roundness": null,
       "seed": 105001,
-      "version": 1,
-      "versionNonce": 105001,
+      "version": 304,
+      "versionNonce": 1444991198,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "name": "Workforce Health Observatory"
@@ -35,10 +169,10 @@
     {
       "id": "title_main",
       "type": "text",
-      "x": 50,
-      "y": 30,
-      "width": 500,
-      "height": 45,
+      "x": -1054.4183671155047,
+      "y": -521.4966729181208,
+      "width": 706.8581752367677,
+      "height": 42.5,
       "angle": 0,
       "strokeColor": "#5c7cfa",
       "backgroundColor": "transparent",
@@ -52,11 +186,11 @@
       "index": "a1",
       "roundness": null,
       "seed": 105002,
-      "version": 1,
-      "versionNonce": 105002,
+      "version": 367,
+      "versionNonce": 1775174942,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "text": "👥 WORKFORCE HEALTH OBSERVATORY",
@@ -66,16 +200,16 @@
       "verticalAlign": "top",
       "containerId": null,
       "originalText": "👥 WORKFORCE HEALTH OBSERVATORY",
-      "autoResize": true,
+      "autoResize": false,
       "lineHeight": 1.25
     },
     {
       "id": "health_score_center",
       "type": "ellipse",
-      "x": 680,
-      "y": 280,
-      "width": 440,
-      "height": 440,
+      "x": -377.59862823213507,
+      "y": -30.467116524189407,
+      "width": 375.99768702242943,
+      "height": 332.91928514585646,
       "angle": 0,
       "strokeColor": "#5c7cfa",
       "backgroundColor": "#edf2fb",
@@ -87,21 +221,23 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "a2",
-      "roundness": { "type": 2 },
+      "roundness": {
+        "type": 2
+      },
       "seed": 105003,
-      "version": 1,
-      "versionNonce": 105003,
+      "version": 293,
+      "versionNonce": 170701150,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false
     },
     {
       "id": "health_score_text",
       "type": "text",
-      "x": 800,
-      "y": 430,
+      "x": -288.36900221468386,
+      "y": 98.60907379064236,
       "width": 200,
       "height": 80,
       "angle": 0,
@@ -117,11 +253,11 @@
       "index": "a3",
       "roundness": null,
       "seed": 105004,
-      "version": 1,
-      "versionNonce": 105004,
+      "version": 162,
+      "versionNonce": 1653265822,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "text": "Workforce\nHealth Score",
@@ -135,10 +271,42 @@
       "lineHeight": 1.25
     },
     {
+      "id": "fOzyOfMNMtCFIMs9wxyN6",
+      "type": "frame",
+      "x": -1054.3690022146839,
+      "y": -277.00718482906484,
+      "width": 452,
+      "height": 500,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a3V",
+      "roundness": null,
+      "seed": 1417812132,
+      "version": 267,
+      "versionNonce": 436193666,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774565184108,
+      "link": null,
+      "locked": false,
+      "customData": {
+        "aiSummaryChartId": "chart_attrition"
+      },
+      "name": "Attrition by Team — Chart + AI Summary"
+    },
+    {
       "id": "chart_attrition",
       "type": "luzmochart",
-      "x": 50,
-      "y": 95,
+      "x": -1038.3690022146839,
+      "y": -261.00718482906484,
       "width": 420,
       "height": 340,
       "angle": 0,
@@ -150,20 +318,57 @@
       "roughness": 0,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
+      "frameId": "fOzyOfMNMtCFIMs9wxyN6",
       "index": "a4",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 105005,
-      "version": 1,
-      "versionNonce": 105005,
+      "version": 187,
+      "versionNonce": 1374455326,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "chartType": "bar-chart",
-      "slots": [],
-      "options": { "title": { "en": "Attrition by Team" }, "display": { "title": true } },
+      "slots": [
+        {
+          "name": "y-axis",
+          "content": [
+            {
+              "columnId": "ed4f8d83-7270-4b67-9486-b9c7e4ed1117",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "hierarchy",
+              "label": {
+                "en": "Industry Vertical"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "eca0e5ef-c8bd-4c8d-bbf8-4281ff7693ff",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "numeric",
+              "aggregationFunc": "average",
+              "label": {
+                "en": "Voluntary Turnover (%)"
+              }
+            }
+          ]
+        }
+      ],
+      "options": {
+        "title": {
+          "en": "Attrition by Team"
+        },
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "workforce-attrition-ctx",
       "themeId": "default",
@@ -171,7 +376,51 @@
       "chartData": null,
       "chartOptions": null,
       "aiSummaryEnabled": true,
-      "customData": { "luzmoPlaceholder": true, "suggestedDataset": "attrition_teams", "suggestedMeasure": "attrition_rate", "suggestedDimension": "team" }
+      "customData": {
+        "luzmoPlaceholder": true,
+        "suggestedDataset": "HR HCM (Demo)",
+        "suggestedMeasure": "voluntary_turnover_pct",
+        "suggestedDimension": "industry_vertical",
+        "aiSummaryElementId": "8EmsFD3I3kav96e__uzWT",
+        "aiSummaryFrameId": "fOzyOfMNMtCFIMs9wxyN6"
+      }
+    },
+    {
+      "id": "8EmsFD3I3kav96e__uzWT",
+      "type": "text",
+      "x": -1038.3690022146839,
+      "y": 126.99281517093516,
+      "width": 420,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": "fOzyOfMNMtCFIMs9wxyN6",
+      "index": "a4V",
+      "roundness": null,
+      "seed": 383868196,
+      "version": 1237,
+      "versionNonce": 1276378434,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774565184709,
+      "link": null,
+      "locked": false,
+      "text": "The data reveals a remarkably consistent pattern in\nvoluntary turnover rates across various industry\nverticals, with all sectors hovering around the 17%\nmark. Manufacturing leads ",
+      "fontSize": 16,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "The data reveals a remarkably consistent pattern in voluntary turnover rates across various industry verticals, with all sectors hovering around the 17% mark. Manufacturing leads ",
+      "autoResize": false,
+      "lineHeight": 1.25
     },
     {
       "id": "chart_attrition_label",
@@ -193,20 +442,20 @@
       "index": "a5",
       "roundness": null,
       "seed": 105006,
-      "version": 1,
-      "versionNonce": 105006,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "version": 8,
+      "versionNonce": 583574940,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774564614466,
       "link": null,
       "locked": false,
-      "text": "LuzmoFlex: Bar Chart — Dataset: attrition_teams",
+      "text": "LuzmoFlex: Bar Chart — Dataset: HR HCM (Demo)",
       "fontSize": 11,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "LuzmoFlex: Bar Chart — Dataset: attrition_teams",
+      "originalText": "LuzmoFlex: Bar Chart — Dataset: HR HCM (Demo)",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -214,7 +463,7 @@
       "id": "ai_attrition_box",
       "type": "rectangle",
       "x": 50,
-      "y": 450,
+      "y": 448.81118918705283,
       "width": 420,
       "height": 85,
       "angle": 0,
@@ -226,15 +475,17 @@
       "roughness": 0,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
+      "frameId": null,
       "index": "a6",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 105007,
-      "version": 1,
-      "versionNonce": 105007,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "version": 7,
+      "versionNonce": 675299996,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774564880657,
       "link": null,
       "locked": false
     },
@@ -258,11 +509,11 @@
       "index": "a7",
       "roundness": null,
       "seed": 105008,
-      "version": 1,
-      "versionNonce": 105008,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "version": 8,
+      "versionNonce": 1202917924,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774564614466,
       "link": null,
       "locked": false,
       "text": "AI Summary: Enabled\n\nAI Insight: Attrition risk rising among mid-level engineers.",
@@ -278,11 +529,11 @@
     {
       "id": "sticky_mentorship",
       "type": "rectangle",
-      "x": 50,
-      "y": 560,
+      "x": -585.2951262587695,
+      "y": -246.89969385105098,
       "width": 280,
       "height": 90,
-      "angle": 2,
+      "angle": 6.269376399565877,
       "strokeColor": "#fcc419",
       "backgroundColor": "#fff9db",
       "fillStyle": "solid",
@@ -295,22 +546,27 @@
       "index": "a8",
       "roundness": null,
       "seed": 105009,
-      "version": 1,
-      "versionNonce": 105009,
+      "version": 438,
+      "versionNonce": 1878791838,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [
+        {
+          "id": "arrow_attrition_to_action",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1774565180535,
       "link": null,
       "locked": false
     },
     {
       "id": "sticky_mentorship_text",
       "type": "text",
-      "x": 65,
-      "y": 580,
+      "x": -563.4977829302325,
+      "y": -228.4243189324808,
       "width": 250,
       "height": 50,
-      "angle": 2,
+      "angle": 6.271278356549518,
       "strokeColor": "#713f12",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
@@ -323,11 +579,11 @@
       "index": "a9",
       "roundness": null,
       "seed": 105010,
-      "version": 1,
-      "versionNonce": 105010,
+      "version": 419,
+      "versionNonce": 1002148574,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "text": "Launch mentorship program",
@@ -343,10 +599,10 @@
     {
       "id": "arrow_attrition_to_action",
       "type": "arrow",
-      "x": 380,
-      "y": 435,
-      "width": -100,
-      "height": 130,
+      "x": -446.8605046988023,
+      "y": -150.87321343315227,
+      "width": 164.57836094767055,
+      "height": 86.62568638538744,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
@@ -358,30 +614,53 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aA",
-      "roundness": { "type": 2 },
+      "roundness": {
+        "type": 2
+      },
       "seed": 105011,
-      "version": 1,
-      "versionNonce": 105011,
+      "version": 506,
+      "versionNonce": 314672926,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [-50, 65], [-100, 130]],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -61.653428578993385,
+          77.01218376653753
+        ],
+        [
+          -164.57836094767055,
+          86.62568638538744
+        ]
+      ],
       "lastCommittedPoint": null,
-      "startBinding": null,
+      "startBinding": {
+        "elementId": "sticky_mentorship",
+        "mode": "orbit",
+        "fixedPoint": [
+          0.6121892630207957,
+          0.6121892630207952
+        ]
+      },
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "moveMidPointsWithElement": false
     },
     {
       "id": "chart_hiring",
       "type": "luzmochart",
-      "x": 1330,
-      "y": 95,
+      "x": 237.93837982439436,
+      "y": -279.4693618912071,
       "width": 350,
-      "height": 280,
+      "height": 299.6929933736552,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "#ffffff",
@@ -393,25 +672,68 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aB",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 105012,
-      "version": 1,
-      "versionNonce": 105012,
+      "version": 206,
+      "versionNonce": 897512286,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "chartType": "funnel-chart",
-      "slots": [],
-      "options": { "title": { "en": "Hiring Funnel" }, "display": { "title": true } },
+      "slots": [
+        {
+          "name": "category",
+          "content": [
+            {
+              "columnId": "59b1bfaf-8446-4ab8-9bab-2c3978e19f92",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "hierarchy",
+              "label": {
+                "en": "Employment Type Focus"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "8131441f-e585-4fc8-a7ef-e8f045f61359",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "numeric",
+              "aggregationFunc": "sum",
+              "label": {
+                "en": "Applications Received"
+              }
+            }
+          ]
+        }
+      ],
+      "options": {
+        "title": {
+          "en": "Hiring Funnel"
+        },
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "workforce-hiring-ctx",
       "themeId": "default",
       "fontFamily": 1,
       "chartData": null,
       "chartOptions": null,
-      "customData": { "luzmoPlaceholder": true, "suggestedDataset": "hiring_pipeline", "suggestedMeasure": "candidates", "suggestedDimension": "stage" }
+      "customData": {
+        "luzmoPlaceholder": true,
+        "suggestedDataset": "HR HCM (Demo)",
+        "suggestedMeasure": "applications_received",
+        "suggestedDimension": "employment_type_focus"
+      },
+      "aiSummaryEnabled": false
     },
     {
       "id": "chart_hiring_label",
@@ -433,28 +755,60 @@
       "index": "aC",
       "roundness": null,
       "seed": 105013,
-      "version": 1,
-      "versionNonce": 105013,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "version": 8,
+      "versionNonce": 783858460,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774564614466,
       "link": null,
       "locked": false,
-      "text": "LuzmoFlex: Funnel Chart — Dataset: hiring_pipeline",
+      "text": "LuzmoFlex: Funnel Chart — Dataset: HR HCM (Demo)",
       "fontSize": 11,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "LuzmoFlex: Funnel Chart — Dataset: hiring_pipeline",
+      "originalText": "LuzmoFlex: Funnel Chart — Dataset: HR HCM (Demo)",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
+      "id": "8SnCQ5GX2lAakmhpWEszU",
+      "type": "frame",
+      "x": 225.63099778531614,
+      "y": 52.609073790642356,
+      "width": 382,
+      "height": 440,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aCV",
+      "roundness": null,
+      "seed": 1121588644,
+      "version": 184,
+      "versionNonce": 1197237122,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774565184383,
+      "link": null,
+      "locked": false,
+      "customData": {
+        "aiSummaryChartId": "chart_engagement"
+      },
+      "name": "Engagement Trend — Chart + AI Summary"
+    },
+    {
       "id": "chart_engagement",
       "type": "luzmochart",
-      "x": 1330,
-      "y": 400,
+      "x": 241.63099778531614,
+      "y": 68.60907379064236,
       "width": 350,
       "height": 320,
       "angle": 0,
@@ -466,20 +820,58 @@
       "roughness": 0,
       "opacity": 100,
       "groupIds": [],
-      "frameId": "frame_main",
+      "frameId": "8SnCQ5GX2lAakmhpWEszU",
       "index": "aD",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 105014,
-      "version": 1,
-      "versionNonce": 105014,
+      "version": 158,
+      "versionNonce": 356791262,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "chartType": "line-chart",
-      "slots": [],
-      "options": { "title": { "en": "Engagement Trend" }, "display": { "title": true } },
+      "slots": [
+        {
+          "name": "x-axis",
+          "content": [
+            {
+              "columnId": "65220a28-2057-4636-8bdc-016460cf6150",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "datetime",
+              "level": 2,
+              "label": {
+                "en": "Time"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "494ffed7-bfe6-44fe-ac2c-103406586c25",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "numeric",
+              "aggregationFunc": "average",
+              "label": {
+                "en": "eNPS Score"
+              }
+            }
+          ]
+        }
+      ],
+      "options": {
+        "title": {
+          "en": "Engagement Trend"
+        },
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "workforce-engagement-ctx",
       "themeId": "default",
@@ -487,7 +879,51 @@
       "chartData": null,
       "chartOptions": null,
       "aiSummaryEnabled": true,
-      "customData": { "luzmoPlaceholder": true, "suggestedDataset": "engagement_surveys", "suggestedMeasure": "engagement_score", "suggestedDimension": "month" }
+      "customData": {
+        "luzmoPlaceholder": true,
+        "suggestedDataset": "HR HCM (Demo)",
+        "suggestedMeasure": "eNPS_score",
+        "suggestedDimension": "event_timestamp",
+        "aiSummaryElementId": "ePx1l4TWTzoNT4LJgIxRH",
+        "aiSummaryFrameId": "8SnCQ5GX2lAakmhpWEszU"
+      }
+    },
+    {
+      "id": "ePx1l4TWTzoNT4LJgIxRH",
+      "type": "text",
+      "x": 241.63099778531614,
+      "y": 436.60907379064236,
+      "width": 350,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": "8SnCQ5GX2lAakmhpWEszU",
+      "index": "aDV",
+      "roundness": null,
+      "seed": 1203042852,
+      "version": 1289,
+      "versionNonce": 1357317378,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1774565184710,
+      "link": null,
+      "locked": false,
+      "text": "The data reveals a consistent upward trend\nin the eNPS Sc",
+      "fontSize": 16,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "The data reveals a consistent upward trend in the eNPS Sc",
+      "autoResize": false,
+      "lineHeight": 1.25
     },
     {
       "id": "chart_engagement_label",
@@ -509,20 +945,20 @@
       "index": "aE",
       "roundness": null,
       "seed": 105015,
-      "version": 1,
-      "versionNonce": 105015,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "version": 8,
+      "versionNonce": 1117328548,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774564614466,
       "link": null,
       "locked": false,
-      "text": "LuzmoFlex: Line Chart — Dataset: engagement_surveys",
+      "text": "LuzmoFlex: Line Chart — Dataset: HR HCM (Demo)",
       "fontSize": 11,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "LuzmoFlex: Line Chart — Dataset: engagement_surveys",
+      "originalText": "LuzmoFlex: Line Chart — Dataset: HR HCM (Demo)",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -544,13 +980,15 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aF",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 105016,
-      "version": 1,
-      "versionNonce": 105016,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "version": 8,
+      "versionNonce": 514520988,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774564614466,
       "link": null,
       "locked": false
     },
@@ -574,11 +1012,11 @@
       "index": "aG",
       "roundness": null,
       "seed": 105017,
-      "version": 1,
-      "versionNonce": 105017,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "version": 8,
+      "versionNonce": 794222628,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1774564614466,
       "link": null,
       "locked": false,
       "text": "AI Summary: Enabled\n\nAI Insight: Engineering engagement down 5% vs last quarter.",
@@ -594,10 +1032,10 @@
     {
       "id": "chart_diversity",
       "type": "luzmochart",
-      "x": 50,
-      "y": 680,
-      "width": 380,
-      "height": 280,
+      "x": -1044.3132521941875,
+      "y": 597.3419499481244,
+      "width": 432.3089818681269,
+      "height": 370.08649925762757,
       "angle": 0,
       "strokeColor": "#7048e8",
       "backgroundColor": "#ffffff",
@@ -609,31 +1047,76 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aH",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 105018,
-      "version": 1,
-      "versionNonce": 105018,
+      "version": 826,
+      "versionNonce": 1813206110,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "chartType": "donut-chart",
-      "slots": [],
-      "options": { "title": { "en": "Diversity Distribution" }, "display": { "title": true } },
+      "slots": [
+        {
+          "name": "category",
+          "content": [
+            {
+              "columnId": "59b1bfaf-8446-4ab8-9bab-2c3978e19f92",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "hierarchy",
+              "label": {
+                "en": "Employment Type Focus"
+              }
+            }
+          ]
+        },
+        {
+          "name": "measure",
+          "content": [
+            {
+              "columnId": "beb77b00-a22d-4aab-8d6e-9457f87b8b3f",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "numeric",
+              "aggregationFunc": "sum",
+              "label": {
+                "en": "Employees Managed"
+              }
+            }
+          ]
+        }
+      ],
+      "options": {
+        "title": {
+          "en": "Diversity Distribution"
+        },
+        "display": {
+          "title": true,
+          "categoryLabels": true,
+          "legend": false
+        }
+      },
       "authConfig": null,
       "contextId": "workforce-diversity-ctx",
       "themeId": "default",
       "fontFamily": 1,
       "chartData": null,
       "chartOptions": null,
-      "customData": { "luzmoPlaceholder": true, "suggestedDataset": "demographics", "suggestedMeasure": "headcount", "suggestedDimension": "category" }
+      "customData": {
+        "luzmoPlaceholder": true,
+        "suggestedDataset": "HR HCM (Demo)",
+        "suggestedMeasure": "employees_managed",
+        "suggestedDimension": "employment_type_focus"
+      },
+      "aiSummaryEnabled": false
     },
     {
       "id": "chart_diversity_label",
       "type": "text",
-      "x": 55,
-      "y": 652,
+      "x": -1033.3690022146839,
+      "y": 320.60907379064236,
       "width": 330,
       "height": 22,
       "angle": 0,
@@ -649,30 +1132,30 @@
       "index": "aI",
       "roundness": null,
       "seed": 105019,
-      "version": 1,
-      "versionNonce": 105019,
+      "version": 162,
+      "versionNonce": 900012190,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
-      "text": "LuzmoFlex: Donut Chart — Dataset: demographics",
+      "text": "LuzmoFlex: Donut Chart — Dataset: HR HCM (Demo)",
       "fontSize": 11,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "LuzmoFlex: Donut Chart — Dataset: demographics",
+      "originalText": "LuzmoFlex: Donut Chart — Dataset: HR HCM (Demo)",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
       "id": "action_ideas",
       "type": "rectangle",
-      "x": 50,
-      "y": 1000,
-      "width": 1700,
-      "height": 130,
+      "x": -1060.9569301000604,
+      "y": 987.2181429462695,
+      "width": 1677.0723718404074,
+      "height": 305.39672066292115,
       "angle": 0,
       "strokeColor": "#5c7cfa",
       "backgroundColor": "#edf2fb",
@@ -684,21 +1167,23 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aJ",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 105020,
-      "version": 1,
-      "versionNonce": 105020,
+      "version": 374,
+      "versionNonce": 687101150,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false
     },
     {
       "id": "action_ideas_title",
       "type": "text",
-      "x": 70,
-      "y": 1015,
+      "x": -1040.9569301000604,
+      "y": 1002.2181429462695,
       "width": 150,
       "height": 25,
       "angle": 0,
@@ -714,11 +1199,11 @@
       "index": "aK",
       "roundness": null,
       "seed": 105021,
-      "version": 1,
-      "versionNonce": 105021,
+      "version": 281,
+      "versionNonce": 529664286,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "text": "ACTION IDEAS",
@@ -734,10 +1219,10 @@
     {
       "id": "filter_panel",
       "type": "rectangle",
-      "x": 50,
-      "y": 1155,
-      "width": 1700,
-      "height": 150,
+      "x": -1057.51786144344,
+      "y": -444.3776672484289,
+      "width": 1665.6083058695501,
+      "height": 141.3843196246853,
       "angle": 0,
       "strokeColor": "#868e96",
       "backgroundColor": "#f8f9fa",
@@ -749,23 +1234,25 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 105022,
-      "version": 1,
-      "versionNonce": 105022,
+      "version": 773,
+      "versionNonce": 418329950,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false
     },
     {
       "id": "filter_date",
       "type": "luzmochart",
-      "x": 80,
-      "y": 1170,
+      "x": -1027.51786144344,
+      "y": -429.3776672484289,
       "width": 360,
-      "height": 50,
+      "height": 111.90481013830157,
       "angle": 0,
       "strokeColor": "#5c7cfa",
       "backgroundColor": "#f8f9fa",
@@ -777,33 +1264,53 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL1",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1050231,
-      "version": 1,
-      "versionNonce": 1050231,
+      "version": 750,
+      "versionNonce": 2120014238,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "chartType": "date-filter",
       "slots": [
-        { "name": "time", "content": [{ "columnId": "65220a28-2057-4636-8bdc-016460cf6150", "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07", "type": "datetime", "level": 5, "label": { "en": "Time" } }] }
+        {
+          "name": "time",
+          "content": [
+            {
+              "columnId": "65220a28-2057-4636-8bdc-016460cf6150",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "datetime",
+              "level": 5,
+              "label": {
+                "en": "Time"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "workforce-filter-date-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     },
     {
       "id": "filter_region",
       "type": "luzmochart",
-      "x": 460,
-      "y": 1170,
+      "x": -647.5178614434401,
+      "y": -429.3776672484289,
       "width": 260,
-      "height": 100,
+      "height": 113.7566524630738,
       "angle": 0,
       "strokeColor": "#5c7cfa",
       "backgroundColor": "#f8f9fa",
@@ -815,33 +1322,52 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL2",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1050232,
-      "version": 1,
-      "versionNonce": 1050232,
+      "version": 731,
+      "versionNonce": 1728837086,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "chartType": "dropdown-filter",
       "slots": [
-        { "name": "dimension", "content": [{ "columnId": "d063b295-67e3-497f-b9a3-ea11193019e7", "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07", "type": "hierarchy", "label": { "en": "Region" } }] }
+        {
+          "name": "dimension",
+          "content": [
+            {
+              "columnId": "d063b295-67e3-497f-b9a3-ea11193019e7",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "hierarchy",
+              "label": {
+                "en": "Region"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "workforce-filter-region-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     },
     {
       "id": "filter_employment",
       "type": "luzmochart",
-      "x": 740,
-      "y": 1170,
+      "x": -367.5178614434401,
+      "y": -429.3776672484289,
       "width": 260,
-      "height": 100,
+      "height": 113.75665246307383,
       "angle": 0,
       "strokeColor": "#5c7cfa",
       "backgroundColor": "#f8f9fa",
@@ -853,33 +1379,52 @@
       "groupIds": [],
       "frameId": "frame_main",
       "index": "aL3",
-      "roundness": { "type": 3 },
+      "roundness": {
+        "type": 3
+      },
       "seed": 1050233,
-      "version": 1,
-      "versionNonce": 1050233,
+      "version": 729,
+      "versionNonce": 1544391198,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1708300000000,
+      "boundElements": [],
+      "updated": 1774565180535,
       "link": null,
       "locked": false,
       "chartType": "dropdown-filter",
       "slots": [
-        { "name": "dimension", "content": [{ "columnId": "59b1bfaf-8446-4ab8-9bab-2c3978e19f92", "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07", "type": "hierarchy", "label": { "en": "Employment Type" } }] }
+        {
+          "name": "dimension",
+          "content": [
+            {
+              "columnId": "59b1bfaf-8446-4ab8-9bab-2c3978e19f92",
+              "datasetId": "a8ca2c8d-b753-49a6-876d-bd6c0a537d07",
+              "type": "hierarchy",
+              "label": {
+                "en": "Employment Type"
+              }
+            }
+          ]
+        }
       ],
-      "options": { "display": { "title": true } },
+      "options": {
+        "display": {
+          "title": true
+        }
+      },
       "authConfig": null,
       "contextId": "workforce-filter-employment-ctx",
       "fontFamily": 1,
       "chartData": null,
-      "chartOptions": null
+      "chartOptions": null,
+      "aiSummaryEnabled": false
     }
   ],
   "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
     "viewBackgroundColor": "#f8f9ff",
-    "gridSize": null,
-    "zoom": { "value": 1 },
-    "scrollX": 0,
-    "scrollY": 0
+    "lockedMultiSelections": {}
   },
   "files": {}
 }
