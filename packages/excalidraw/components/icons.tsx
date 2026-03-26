@@ -570,13 +570,9 @@ export const GithubIcon = createIcon(
 );
 
 const getLuzmoMarkSrc = (isDark: boolean) => {
-  const assetPath =
-    typeof window !== "undefined" && (window as any).EXCALIDRAW_ASSET_PATH
-      ? `${(window as any).EXCALIDRAW_ASSET_PATH}`
-      : "";
-  return (
-    assetPath + (isDark ? "/luzmo_mark_dark.svg" : "/luzmo_mark_light.svg")
-  );
+  const basePath = import.meta.env.BASE_URL || "/";
+  const base = basePath.endsWith("/") ? basePath : `${basePath}/`;
+  return base + (isDark ? "luzmo_mark_dark.svg" : "luzmo_mark_light.svg");
 };
 
 export const LuzmoMarkIcon = ({ theme }: { theme?: Theme }) => {
