@@ -6,7 +6,9 @@ import "../excalidraw-app/sentry";
 
 import ExcalidrawApp from "./App";
 
-window.EXCALIDRAW_ASSET_PATH = import.meta.env.BASE_URL || "/";
+// Preserve value injected in index.html in production builds.
+window.EXCALIDRAW_ASSET_PATH =
+  window.EXCALIDRAW_ASSET_PATH || import.meta.env.BASE_URL || "/";
 window.__EXCALIDRAW_SHA__ = import.meta.env.VITE_APP_GIT_SHA;
 const rootElement = document.getElementById("root")!;
 const root = createRoot(rootElement);

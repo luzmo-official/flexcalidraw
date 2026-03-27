@@ -12,7 +12,7 @@ image: "https://cdn.luzmo.com/showcases/flexcalidraw.gif"
 
 # Excalidraw Fork: Luzmo + ACK Editing
 
-This repository is a custom fork of Excalidraw built to showcase Luzmo's charting & editing possibilities (e.g. allowing  data-driven diagram workflows).
+This repository is a custom fork of [Excalidraw](https://excalidraw.com/), built to showcase Luzmo's charting & editing possibilities (e.g. allowing data-driven diagram workflows).
 
 It combines Excalidraw's whiteboarding experience with Luzmo Flex chart integrations and editing capabilities.
 
