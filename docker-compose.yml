@@ -21,15 +21,13 @@ services:
       - notused:/opt/node_app/app/node_modules
 
   excalidraw-room:
-    build:
-      context: .
-      dockerfile: excalidraw-room.Dockerfile
+    build: https://github.com/luzmo-official/excalidraw-room.git#master
     container_name: excalidraw-room
     ports:
-      - "3002:80"
+      - "3002:8080"
     restart: on-failure
     environment:
-      - PORT=80
+      - PORT=8080
       - NODE_ENV=production
       # Allow any origin to connect to WebSocket
       - CORS_ORIGIN=*
